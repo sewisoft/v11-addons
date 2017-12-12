@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		<record id="eq_ebid_config_settings" model="ir.ui.view">
+            <field name="name">ebid settings</field>
+            <field name="model">eq.ebid.config</field>
+            <field name="arch" type="xml">
+                <form string="Configure Ebid" class="oe_form_configuration">
+                    <header>
+                        <button string="Apply" type="object" name="execute" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" type="object" name="cancel" class="oe_link"/>
+                    </header>
+                    <separator string="Ebid Configuration"/>
+                    <div>
+                        <group>
+                            <field name="eq_ebid_homepage" class="oe_inline" style="width:450px!important;"/>
+                            <field name="eq_ebid_service_match_url" class="oe_inline" style="width:450px!important;"/>
+                            <field name="eq_ebid_service_company_url" class="oe_inline" style="width:450px!important;"/>
+                            <field name="eq_ebid_user" class="oe_inline" style="width:200px!important;"/>
+                            <field name="eq_ebid_pw" class="oe_inline" password="True" style="width:200px!important;"/>
+                            <field name="eq_ebid_acceptance_rate" class="oe_inline"/>
+                            <field name="eq_ebid_activate_log" class="oe_inline"/>
+                        </group>
+                    </div>
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_eq_ebid_config_settings" model="ir.actions.act_window">
+            <field name="name">Configure Ebid</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">eq.ebid.config</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+        </record>
+
+        <menuitem
+            id="menu_ebid_conf"
+            name="EBID"
+            parent="sale.menu_sale_config"
+            sequence="40"
+            groups="sales_team.group_sale_manager"/>
+
+         <menuitem
+            id="menu_eq_ebid_config_settings"
+            name="Configuration"
+            action="action_eq_ebid_config_settings"
+            parent="menu_ebid_conf"
+            sequence="3"
+            />
+        
+	</data>
+</odoo>

@@ -1,0 +1,270 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* eq_purchase
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20171030\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-25 11:02+0000\n"
+"PO-Revision-Date: 2017-11-25 11:02+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Contact person</span>"
+msgstr "<span>Ansprechpartner</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>E-Mail</span>"
+msgstr "<span>E-Mail</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+msgid "<span>Order date</span>"
+msgstr "<span>Auftragsdatum</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Our order reference</span>"
+msgstr "<span>Unsere Bestellnr.</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Phone</span>"
+msgstr "<span>Telefon</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+msgid "<span>Purchase Order</span>"
+msgstr "<span>Bestellung</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Purchase quotation</span>"
+msgstr "<span>Einkaufsanfrage</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Quotation date</span>"
+msgstr "<span>Angebotssdatum</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Supplier no.</span>"
+msgstr "<span>Supplier no.</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+msgid "<span>Total VAT</span>"
+msgstr "<span>Steuern</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+msgid "<span>Total without taxes</span>"
+msgstr "<span>Nettobetrag</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Your order reference</span>"
+msgstr "<span>Ihre Bestellnr.</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>Deliver to:</strong>"
+msgstr "<strong>Lieferadresse:</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>For further information, please contact</strong>"
+msgstr "<strong>Bei Fragen wenden Sie sich bitte an</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>Lieferbedingungen:</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>Item description</strong>"
+msgstr "<strong>Beschreibung</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>Item no.</strong>"
+msgstr "<strong>Artikelnr.</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+msgid "<strong>Net price</strong>"
+msgstr "<strong>Nettopreis</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>Pos.</strong>"
+msgstr "<strong>Pos.</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>Qty.</strong>"
+msgstr "<strong>Menge</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>Term of payment:</strong>"
+msgstr "<strong>Zahlungsbedingungen:</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+msgid "<strong>Total sum</strong>"
+msgstr "<strong>Gesamtbetrag</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+msgid "<strong>Unit price</strong>"
+msgstr "<strong>Einzelpreis</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<strong>Unit</strong>"
+msgstr "<strong>Einheit</strong>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+msgid "<strong>VAT</strong>"
+msgstr "<strong>USt.</strong>"
+
+#. module: eq_purchase
+#: selection:res.partner,eq_planned_date_type_purchase:0
+msgid "Calendar week"
+msgstr "Kalenderwoche"
+
+#. module: eq_purchase
+#: model:ir.model,name:eq_purchase.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: eq_purchase
+#: selection:res.partner,eq_planned_date_type_purchase:0
+msgid "Date"
+msgstr "Datum"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_purchase_view_purchase_order_form
+msgid "Foot Text"
+msgstr "Fußtext"
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_purchase_order_eq_head_text
+#: model:ir.ui.view,arch_db:eq_purchase.eq_purchase_view_purchase_order_form
+msgid "Head Text"
+msgstr "Kopftext"
+
+#. module: eq_purchase
+#: model:ir.model.fields,help:eq_purchase.field_res_partner_eq_planned_date_type_purchase
+#: model:ir.model.fields,help:eq_purchase.field_res_users_eq_planned_date_type_purchase
+msgid "If nothing is selected, the default from the settings will be used."
+msgstr "Wenn keine Auswahl getroffen ist, wird der Standardwert aus den Einstellungen genommen. Das Lieferdatum muss in den Einstellungen aktiviert sein."
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_purchase_order_eq_use_page_break_after_header
+#: model:ir.ui.view,arch_db:eq_purchase.eq_purchase_view_purchase_order_form
+msgid "Page break after header text"
+msgstr "Seitenumbruch nach Kopftext"
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_purchase_order_eq_use_page_break_before_footer
+#: model:ir.ui.view,arch_db:eq_purchase.eq_purchase_view_purchase_order_form
+msgid "Page break before footer text"
+msgstr "Seitenumbruch vor dem Fußtext"
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_purchase_order_line_get_planned_date
+#: model:ir.ui.view,arch_db:eq_purchase.eq_view_purchase_config_settings_report_settings
+msgid "Planned Date"
+msgstr "Geplantes Datum"
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_res_partner_eq_planned_date_type_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_res_users_eq_planned_date_type_purchase
+msgid "Planned Date Purchase"
+msgstr "Geplantes Datum Einkauf"
+
+#. module: eq_purchase
+#: model:ir.model,name:eq_purchase.model_purchase_order
+msgid "Purchase Order"
+msgstr "Beschaffungsauftrag"
+
+#. module: eq_purchase
+#: model:ir.model,name:eq_purchase.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Bestellposition"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_view_purchase_config_settings_report_settings
+msgid "Reports"
+msgstr "Reports"
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_purchase_order_show_planned_date
+msgid "Show Planned Date"
+msgstr "Geplante Datum anzeigen"
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_eq_mail_config_settings_default_show_planned_date
+#: model:ir.model.fields,field_description:eq_purchase.field_res_config_settings_default_show_planned_date
+msgid "Show the Planned Date on the Purchase Order [eq_purchase]"
+msgstr "Das geplante Datum in der Bestellung anzeigen [eq_purchase]"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_purchase_view_partner_tree
+msgid "Supplier Number"
+msgstr "Lieferantennummer"
+
+#. module: eq_purchase
+#: model:ir.model.fields,help:eq_purchase.field_eq_mail_config_settings_default_show_planned_date
+#: model:ir.model.fields,help:eq_purchase.field_res_config_settings_default_show_planned_date
+msgid "The planned date will be shown in the Purchase Order"
+msgstr "Das geplante Datum wird in der Bestellung angezeigt."
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_purchase_order_use_calendar_week
+msgid "Use Calendar Week for Planned Date [eq_purchase]"
+msgstr "Kalenderwoche anzeigen [eq_purchase]"
+
+#. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_purchase_order_user_id
+msgid "User"
+msgstr "Benutzer"
+
+#. module: eq_purchase
+#: model:ir.model,name:eq_purchase.model_eq_install_func
+msgid "eq_install_func"
+msgstr "eq_install_func"
+
+#. module: eq_purchase
+#: model:ir.model,name:eq_purchase.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+

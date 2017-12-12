@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="eq_purchase_view_purchase_order_form" model="ir.ui.view">
+            <field name="name">eq.purchase.view.purchase.order.form</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='notes']" position="replace">
+                </xpath>
+                <xpath expr="//notebook" position='inside'>
+                    <page string='Head Text'>
+                        <field name="eq_use_page_break_after_header"/>
+                        <label string="Page break after header text"/>
+                        <field name="eq_head_text"/>
+                    </page>
+
+                    <page string="Foot Text">
+                        <field name="eq_use_page_break_before_footer"/>
+                        <label string="Page break before footer text"/>
+                        <field name="notes" nolabel="1"/>
+                    </page>
+                </xpath>
+                <xpath expr="//field[@name='is_shipped']" position="after">
+                    <field name="user_id"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="eq_view_purchase_config_settings_report_settings" model="ir.ui.view">
+            <field name="name">eq_purchase.config.report.settings</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="purchase.res_config_settings_view_form_purchase"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@data-key='purchase']" position="inside">
+                    <h2>Reports</h2>
+                    <div class="row mt16 o_settings_container" id="eq_purchase_report_settings">
+                        <div class="col-xs-12 col-md-6 o_setting_box" id="eq_report_planned_date">
+                            <div class="o_setting_right_pane">
+                                <label string="Planned Date"/>
+                                <div class="content-group">
+                                    <div class="mt16">
+                                        <field name="default_show_planned_date" />
+                                        <label for="default_show_planned_date" class="o_light_label oe_inline"/>
+                                    </div>
+                                    <div class="mt16">
+                                        <field name="default_use_calendar_week" />
+                                        <label for="default_use_calendar_week" class="o_light_label oe_inline"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Cost Price History Tree View -->
+        <record id="eq_product_template_standard_price_history_tree_view" model="ir.ui.view">
+            <field name="name">eq.product.template.standard_price_history.tree.view</field>
+            <field name="model">product.template.standard_price_history</field>
+            <field name="arch" type="xml">
+                <tree string="Cost Price History">
+                    <field name="eq_product_id"/>
+                    <field name="eq_old_price"/>
+                    <field name="eq_new_price"/>
+                    <field name="create_date"/>
+                    <field name="create_uid"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Cost Price History Form View -->
+        <record id="eq_product_template_standard_price_history_form_view" model="ir.ui.view">
+            <field name="name">eq.product.template.standard_price_history.form.view</field>
+            <field name="model">product.template.standard_price_history</field>
+            <field name="arch" type="xml">
+                <form string="Cost Price History">
+                    <sheet>
+                        <group col="4">
+                            <h1 colspan="4">
+                                <field name="eq_product_id"/>
+                            </h1>
+                            <field name="eq_old_price"/>
+                            <field name="create_date"/>
+                            <field name="eq_new_price"/>
+                            <field name="create_uid"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Cost Price History Search View -->
+        <record id="eq_product_template_standard_price_history_search_view"
+                model="ir.ui.view">
+            <field name="name">eq.product.template.standard_price_history.search.view
+            </field>
+            <field name="model">product.template.standard_price_history</field>
+            <field name="arch" type="xml">
+                <search string="Search History">
+                    <field name="eq_product_id"/>
+                    <field name="eq_old_price"/>
+                    <field name="eq_new_price"/>
+                    <field name="create_uid"/>
+                    <field name="create_date"/>
+                    <group expand="0" string="Group By">
+                        <filter string="Product" context="{'group_by' : 'eq_product_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <!-- Cost Price History Action -->
+        <record id="eq_template_standard_price_history_action" model="ir.actions.act_window">
+            <field name="name">Cost Price History</field>
+            <field name="res_model">product.template.standard_price_history</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_eq_product_id': active_id,
+                'default_eq_product_id': active_id}
+            </field>
+        </record>
+
+
+        <record id="eq_product_template_only_form_view" model="ir.ui.view">
+            <field name="name">eq.product.template.only.form.view</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+                <field name="standard_price" position="attributes">
+                    <attribute name="class">oe_inline</attribute>
+                </field>
+                <field name="standard_price" position="after">
+                    <button string="Show Price History" type="action"
+                            name="%(eq_template_standard_price_history_action)d" class="oe_inline oe_link"
+                            style="margin-left: 20px"/>
+                </field>
+
+                <field name="default_code" position="replace"/>
+                <xpath expr="//div[hasclass('oe_title')]/h1" position="after">
+                    <field name="default_code" placeholder="Product Number"/>
+                </xpath>
+
+                <field name="default_code" position="after">
+                    <div class="oe_edit_only oe_link oe_inline">Number is generated automatically, if not specified</div>
+                    <newline/>
+                </field>
+
+
+                <xpath expr="//page[@name='general_information']/group" position="after">
+                    <field name="description" placeholder="Describe the product characteristics..." />
+                </xpath>
+
+            </field>
+        </record>
+
+
+        <!-- Product Product - form view -->
+        <record id="eq_product_product_form_view" model="ir.ui.view">
+            <field name="name">eq.product.product.form.view.inherit</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+                <!-- add only our 2 main fields and remove default_code..will be added below -->
+                <field name="default_code" position="replace"/>
+                <xpath expr="//div[hasclass('oe_title')]/h1" position="after">
+                    <field name="default_code" placeholder="Product Number"/>
+                </xpath>
+
+                <xpath expr="//page[@name='general_information']/group" position="after">
+                    <field name="description" placeholder="Describe the product characteristics..." />
+                </xpath>
+
+                <field name="default_code" position="after">
+                    <div class="oe_edit_only oe_link oe_inline">Number is generated automatically, if not specified</div>
+                    <newline/>
+                </field>
+
+            </field>
+        </record>
+
+         <record id="eq_product_template_tree_view" model="ir.ui.view">
+            <field name="name">eq.product.template.tree.view</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_tree_view"/>
+            <field name="arch" type="xml">
+                <field name="default_code" position="replace">
+                    <field name="default_code" string="Product Number"/>
+                </field>
+            </field>
+         </record>
+
+    </data>
+</odoo>

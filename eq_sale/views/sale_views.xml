@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="eq_sale_stock_form_view" model="ir.ui.view">
+			<field name="name">eq_sale.sale_stock.form</field>
+			<field name="model">sale.order</field>
+			<field name="type">form</field>
+			<field name="inherit_id" ref="sale_stock.view_order_form_inherit_sale_stock" />
+			<field name="arch" type="xml">
+				<field name="incoterm" position="after">
+					<field name="eq_delivery_condition_id" />
+				</field>
+			</field>
+		</record>
+
+		<record id="eq_info_optional_form_view" model="ir.ui.view">
+			<field name="name">eq_info_optional.form.view</field>
+			<field name="model">eq_info_optional</field>
+			<field name="arch" type="xml">
+				<form>
+                	<group>
+						<field name="eq_info_text" nolabel="1" readonly="1"/>
+					</group>
+					<footer>
+						<button name="action_done" type="object" string="Confirm"/> or <button name="cancel" type="special" string="Cancel"/>
+					</footer>
+				</form>
+			</field>
+		</record>
+
+		<record id="eq_sale_form_quote" model="ir.ui.view">
+            <field name="name">hide.preview_button</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="website_quote.sale_order_form_quote"/>
+            <field name="arch" type="xml">
+				<field name="carrier_id" position="after">
+                <field name="eq_show_preview_button" invisible="1"/>
+				</field>
+                <xpath expr="//header/button[@name='open_quotation']" position="replace">
+                    <button name="open_quotation" type="object" string="Preview" attrs="{'invisible': [('eq_show_preview_button', '=', False)]}"/>
+                </xpath>
+            </field>
+        </record>
+
+
+        <record id="eq_sale_address_fields_view_order_form_inherit" model="ir.ui.view">
+            <field name="name">eq_sale.address.fields.view.order.form.inherit</field>
+            <field name="model">sale.order</field>
+	    	<field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+            	<!-- deactivate default version of address fields -->
+				<field name="client_order_ref" position="replace"/>
+				<xpath expr="//field[@name='payment_term_id']" position="after">
+					<field name="client_order_ref"/>
+				</xpath>
+
+                <xpath expr="//header/button[@name='action_confirm']" position="replace">
+                    <button name="action_button_confirm_optional" states="draft" class="o_sale_confirm" string="Confirm Sale" type="object" groups="base.group_user"/>
+                </xpath>
+
+                <xpath expr="//header/button[@name='action_confirm']" position="replace">
+                    <button name="action_button_confirm_optional" states="sent" class="btn-primary o_sale_confirm"  string="Confirm Sale" type="object" groups="base.group_user"/>
+                </xpath>
+
+                <field name="partner_id" position="attributes">
+                    <attribute name="context">{'search_default_customer':1, 'show_address': 0,'active_model':'sale.order','main_address': True}</attribute>
+                    <attribute name="options">{'always_reload': True}</attribute>
+            		<attribute name="domain">[('customer','=',True), ('is_company', '=', True)]</attribute>
+                </field>
+                <!-- append our version of address fields -->
+                <xpath expr="//field[@name='partner_id']" position="after">
+                	<field name="eq_street_house_no" attrs="{'invisible': [('eq_street_house_no', '=', False)]}" />
+               		<field name="eq_zip_city" attrs="{'invisible': [('eq_zip_city', '=', False)]}" />
+               		<field name="eq_country" attrs="{'invisible': [('eq_country', '=', False)]}" />
+                </xpath>
+
+				<field name="note" position="replace">
+
+				</field>
+				<notebook position="inside">
+                    <page string="Head Text">
+						<field name="eq_use_page_break_after_header"/>
+                    	<label string="Page break after header text"/>
+						<field name="eq_head_text" placeholder="Dear Sir or Madam," nolabel="1"/>
+                    </page>
+                    <page string="Foot Text">
+						<field name="eq_use_page_break_before_footer"/>
+                    	<label string="Page break before footer text"/>
+                    	<field name="note" nolabel="1"/>
+                    </page>
+            	</notebook>
+
+                <!-- invoice address -->
+            	<xpath expr="//field[@name='partner_invoice_id']" position="attributes">
+                    <attribute name="context">{'search_default_customer':1, 'show_address': 0,'active_model':'sale.order'}</attribute>
+            	</xpath>
+            	<xpath expr="//field[@name='partner_invoice_id']" position="after">
+            		<field name="eq_invoice_address" groups="sale.group_delivery_invoice_address"/>
+            	</xpath>
+
+            	<!-- shipping address -->
+            	<xpath expr="//field[@name='partner_shipping_id']" position="attributes">
+                    <attribute name="context">{'search_default_customer':1, 'show_address': 0,'active_model':'sale.order'}</attribute>
+            	</xpath>
+            	<xpath expr="//field[@name='partner_shipping_id']" position="after">
+            		<field name="eq_delivery_address" groups="sale.group_delivery_invoice_address"/>
+            	</xpath>
+
+
+				<xpath expr="//field[@name='order_line']/form/group/group/field[@name='tax_id']" position="after">
+            		<field name="eq_delivery_date" />
+            	</xpath>
+
+				<xpath expr="//field[@name='order_line']/tree" position="attributes">
+            		<attribute name="editable"/>
+            	</xpath>
+
+				<xpath expr="//notebook/page/field[@name='order_line']/tree/field[@name='product_id']" position="after">
+					  <field name="eq_optional" invisible="1"/>
+				</xpath>
+
+				<xpath expr="//field[@name='order_line']/form/group" position="inside">
+					<group name="eq_optional">
+	                    <field name="eq_optional"/>
+					</group>
+				</xpath>
+
+				<xpath expr="//field[@name='order_line']/tree" position="attributes">
+					<attribute name="colors">blue:eq_optional!=False</attribute>
+				</xpath>
+            </field>
+	    </record>
+
+		<record id="eq_view_sale_config_settings_show_address" model="ir.ui.view">
+            <field name="name">eq_sale.config.address.product.settings</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="sale.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@data-key='sale_management']" position="inside">
+                    <h2>Customer</h2>
+                    <div class="row mt16 o_settings_container" id="customer_settings">
+                        <div class="col-xs-12 col-md-6 o_setting_box" id="creator_default_salesperson">
+                            <div class="o_setting_right_pane">
+                                <label string="Customer search settings [eq_sale]"/>
+                                <div class="content-group">
+                                    <div class="mt16">
+                                        <field name="default_show_address" />
+                                        <label for="default_show_address" string="Show street and city in the partner search of the saleorder [eq_sale]" class="o_light_label oe_inline"/>
+                                    </div>
+                                    <div class="mt16">
+                                        <field name="default_search_only_company" />
+                                        <label for="default_search_only_company" string="Only search for Companies in the Sale Order/Quotation [eq_sale]" class="o_light_label oe_inline"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Reports</h2>
+                    <div class="row mt16 o_settings_container" id="sale_report_settings">
+                        <div class="col-xs-12 col-md-6 o_setting_box" id="customer_search_settings">
+                            <div class="o_setting_right_pane">
+                                <label string="Delivery Date"/>
+                                <div class="content-group">
+                                    <div class="mt16">
+                                        <field name="default_show_delivery_date" />
+                                        <label for="default_show_delivery_date"  class="o_light_label oe_inline"/>
+                                    </div>
+                                    <div class="mt16">
+                                        <field name="default_use_calendar_week" />
+                                        <label for="default_use_calendar_week" class="o_light_label oe_inline"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Invoices</h2>
+                    <div class="row mt16 o_settings_container" id="eq_config_invoice_text_separator">
+                        <div class="col-xs-12 o_setting_box" id="eq_default_invoice_text">
+                            <div class="o_setting_full_pane">
+                                <label string="Texts"/>
+                                <div class="content-group">
+                                    <div class="mt16">
+                                        <field name="eq_use_text_from_order" />
+                                        <label for="eq_use_text_from_order" class="o_light_label oe_inline"/>
+                                    </div>
+                                    <div attrs="{'invisible':[('eq_use_text_from_order','!=',False)]}" class="mt16">
+                                        <label for="eq_head_text_invoice" class="o_light_label oe_inline"/>
+                                        <field name="eq_head_text_invoice"/>
+                                    </div>
+                                    <div attrs="{'invisible':[('eq_use_text_from_order','!=',False)]}" class="mt16">
+                                        <label for="eq_foot_text_invoice" class="o_light_label oe_inline"/>
+                                        <field name="eq_foot_text_invoice"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+
+                <!-- Produkteigenschaften -->
+                <xpath expr="//div[@data-key='sale_management']/div[hasclass('o_settings_container')]" position="inside">
+                    <div class="col-xs-12 col-md-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="group_product_rrp"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="group_product_rrp"/>
+                        </div>
+                    </div>
+                </xpath>
+
+                <!-- Verkaufseigenschaften -->
+                <xpath expr="//div[@data-key='sale_management']/div[hasclass('o_settings_container')][3]" position="inside">
+                    <div class="col-xs-12 col-md-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="default_eq_use_internal_description"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="default_eq_use_internal_description"/>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="default_eq_show_preview_button"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="default_eq_show_preview_button"/>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+	</data>
+</odoo>

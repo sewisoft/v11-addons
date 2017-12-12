@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="external_layout_equitania">
+        <div class="header o_background_header" style="color: #000 !important;font-size: 11px!important;font-family: 'Open Sans', Calibri,'Helvetica Neue', Helvetica, Arial, sans-serif;">
+			<div class="row" style="padding-right:0.5cm;min-height: 0px!important;">
+            <div class="pull-right" id="logo" >
+				<img t-if="company.eq_report_logo" t-att-src="'data:image/png;base64,%s' % company.eq_report_logo" style="margin-right:15px; float:right;width: 7cm;" class="text-right"/>
+				<div t-if="not company.eq_report_logo" style="color:#666;"><strong><i>Sie müssen noch Ihr Reportlogo konfigurieren</i></strong><br/><ul><li>Einstellungen &gt; Allgemeine Einstellungen</li><li>Unter <strong>Reportkonfigurationen</strong> können Sie<br/>Ihr Logo für Reports hochladen.</li></ul></div>
+            </div>
+            <div class="pull-left company_address">
+				<div class="not-first-page" style="color: #000000 !important;font-size: 9px!important;font-family: 'Open Sans', Calibri,'Helvetica Neue', Helvetica, Arial, sans-serif;padding-left:52px;">
+                    <t t-if="doc_model == 'sale.order'">
+                        <table class="data">
+                            <tbody>
+                                <tr t-if="doc.partner_id.customer_number">
+                                    <td>
+                                        <span>Customer no.</span>
+                                    </td>
+                                    <td >
+                                        <span t-field="doc.partner_id.customer_number"/>
+                                    </td>
+                                </tr>
+                                <tr t-if="doc.client_order_ref">
+                                    <td>
+                                        <span>Your reference no.</span>
+                                    </td>
+                                    <td >
+                                        <span t-field="doc.client_order_ref"/>
+                                    </td>
+                                </tr>
+                                <tr t-if="doc.name">
+                                    <td t-if="doc.state not in ['draft','sent']">
+                                        <span>Order no.</span>
+                                    </td>
+                                    <td t-if="doc.state in ['draft','sent']">
+                                        <span>Quotation no.</span>
+                                    </td>
+                                    <td >
+                                        <span t-field="doc.name"/>
+                                    </td>
+                                </tr>
+                                <tr t-if="order_date">
+                                    <td t-if="doc.state not in ['draft','sent']">
+                                        <span>Order date</span>
+                                    </td>
+                                    <td t-if="doc.state in ['draft','sent']">
+                                        <span>Quotation date</span>
+                                    </td>
+                                    <td >
+                                        <span t-esc="order_date"/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </t>
+
+                    <t t-if="doc_model == 'account.invoice'">
+                        <table class="data">
+                            <tbody>
+                                <tr t-if="o.partner_id.customer_number">
+                                    <td>
+                                        <span>Customer no.</span>
+                                    </td>
+                                    <td >
+                                        <span t-field="o.partner_id.customer_number"/>
+                                    </td>
+                                </tr>
+                                <tr t-if="o.number">
+                                    <td>
+                                        <span>Invoice no.</span>
+                                    </td>
+                                    <td >
+                                        <span t-field="o.number"/>
+                                    </td>
+                                </tr>
+                                <tr t-if="o.date_invoice">
+                                    <td>
+                                        <span>Invoice date</span>
+                                    </td>
+                                    <td >
+                                        <span t-field="o.date_invoice"/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </t>
+
+                    <t t-if="doc_model == 'stock.picking'">
+                        <table class="data">
+                            <tbody>
+                                <tr t-if="o.name">
+                                    <td>
+                                        <span>Delivery note.</span>
+                                    </td>
+                                    <td >
+                                        <span t-field="o.name"/>
+                                    </td>
+                                </tr>
+                                <tr t-if="o.partner_id.customer_number">
+                                    <td>
+                                        <span>Customer no.</span>
+                                    </td>
+                                    <td >
+                                        <span t-field="o.partner_id.customer_number"/>
+                                    </td>
+                                </tr>
+                                <tr t-if="o.date">
+                                    <td>
+                                        <span>Date.</span>
+                                    </td>
+                                    <td >
+                                        <span t-esc="o.date.split(' ')[0].split('-')[2] + '.' + o.date.split(' ')[0].split('-')[1] + '.' + o.date.split(' ')[0].split('-')[0]" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </t>
+                </div>
+            </div>
+            </div>
+            <div class="clearfix mb8"/>
+        </div>
+
+        <div class="article o_report_layout_standard">
+            <t t-raw="0" />
+        </div>
+
+        <div class="footer o_background_footer" style="color: #000 !important;font-size: 11px!important;font-family: 'Open Sans', Calibri,'Helvetica Neue', Helvetica, Arial, sans-serif;clear:both;align:center;text-align:center;margin-left:0px;font-size:10px!important;padding-right:0cm !important;">
+			<div class="row" style="border-bottom: 1px solid #999999; width: 100%;font-size:8pt; font-weight:bold;float: right !important;text-align:right;">
+                <span>Page:</span> <span class="page"/><span> / </span><span class="topage"/>
+			</div>
+			<div>
+				<table style="width: 100%;">
+					<tr>
+						<td style="margin:0;padding:0;padding-left:20px;padding-right:20px;text-align:left;border: none;background-color:none;font-size:8px!important;">
+							<span t-field="company.name"/><br/>
+							<h t-field="company.street"/><br/>
+							<div t-if="company.street2" >
+								<div t-field="company.street2"/>
+							</div>
+							<div><span t-field="company.zip"/> <span t-field="company.city"/></div>
+						</td>
+						<td style="margin:0;padding:0;padding-left:20px;padding-right:20px;text-align:left;border: none;background-color:none;font-size:8px!important;">
+							<span t-field="company.email"/>
+							<div t-if="company.phone">
+								Phone: <span t-field="company.phone"/>
+							</div>
+						</td>
+						<td style="margin:0;padding:0;padding-left:20px;padding-right:20px;text-align:left;border: none;background-color:none;font-size:8px!important;">
+							<span t-field="company.website"/><br/>
+							<div t-if="company.vat">
+								VAT<span t-field="company.vat"/><br/>
+							</div>
+							<span t-field="company.company_registry"/>
+						</td>
+						<td style="margin:0;padding:0;padding-left:20px;padding-right:20px;text-align:left;border: none;background-color:none;font-size:8px!important;">
+							<span t-field="company.eq_ceo_title" t-if="company.eq_ceo_title"/><br/>
+							<span t-field="company.eq_ceo_01" t-if="company.eq_ceo_01"/><br/>
+							<span t-field="company.eq_ceo_02" t-if="company.eq_ceo_02"/><br/>
+							<span t-field="company.eq_ceo_03" t-if="company.eq_ceo_03"/>
+						</td>
+					</tr>
+				</table>
+			</div>
+        </div>
+    </template>
+</odoo>

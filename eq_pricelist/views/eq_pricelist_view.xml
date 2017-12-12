@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="pricelist_version_search_view" model="ir.ui.view">
+			<field name="name">pricelistversion.search.view</field>
+			<field name="model">product.pricelist.item</field>
+			<field name="arch" type="xml">
+				<search string="Pricelist Versions Position Search">
+					<group expand="0" string="Group By">
+						<filter string="Products" context="{'group_by' : 'product_id'}"/>
+						<filter string="Product Template" context="{'group_by' : 'product_tmpl_id'}"/>
+						<filter string="Product Category" context="{'group_by' : 'categ_id'}"/>
+					</group>
+				</search>
+			</field>
+		</record>
+
+		<record id="pricelist_version_position_action" model="ir.actions.act_window">
+			<field name="name">Pricelist Versions Position</field>
+			<field name="res_model">product.pricelist.item</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem id="pricelist_version_position_menu"
+				  name="Pricelist Versions Position"
+                  parent="sale.product_menu_catalog"
+				  groups="product.group_sale_pricelist"
+                  action="pricelist_version_position_action"
+                  sequence="4"
+        />
+	</data>
+</odoo>

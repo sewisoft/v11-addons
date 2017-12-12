@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Report condiguration -->
+        <record id="eq_report_layout_configuration_form_view" model="ir.ui.view">
+            <field name="name">report.configuration.form.view</field>
+            <field name="model">sale.layout_category</field>
+            <field name="inherit_id" ref="sale.report_configuration_form_view"/>
+            <field name="arch" type="xml">
+                <field name="subtotal" position="after">
+                    <field name="separator" widget="checkbox"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="eq_report_layout_configuration_tree_view" model="ir.ui.view">
+            <field name="name">report.configuration.form.view</field>
+            <field name="model">sale.layout_category</field>
+            <field name="inherit_id" ref="sale.report_configuration_tree_view"/>
+            <field name="arch" type="xml">
+                <field name="subtotal" position="after">
+                    <field name="separator" widget="checkbox"/>
+                </field>
+            </field>
+        </record>
+
+        <!--Suche aus Basis überschrieben-->
+        <record id="sale.report_configuration_search_view" model="ir.ui.view" >
+	        <field name="name">report.configuration.search.view</field>
+	        <field name="model">sale.layout_category</field>
+	        <field name="arch" type="xml">
+                <search string="Search Name">
+                    <filter string="Total" domain="[('subtotal','=','True')]"/>
+                    <filter string="Separator" domain="[('separator','=','True')]"/>
+                    <filter string="Break" domain="[('pagebreak','=','True')]"/>
+                    <group string="Group By Name">
+                        <filter string="Name"  context="{'group_by' : 'name'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+    </data>
+</odoo>

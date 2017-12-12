@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+        <!-- Product Template - form view -->
+		<record id="eq_product_template_form_view_sale_order_button_inherit" model="ir.ui.view">
+			<field name="name">eq.product.template.only.form.view</field>
+			<field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="groups_id" eval="[(4, ref('sales_team.group_sale_salesman'))]"/>
+            <field name="arch" type="xml">
+                <button name="toggle_active" position="before">
+                    <button class="oe_stat_button" name="action_view_sales" type="object" icon="fa-usd">
+                        <field string="Sales" name="eq_sale_count" widget="statinfo" />
+                    </button>
+                </button>
+            </field>
+        </record>
+
+
+		<record id="eq_product_form_view_sale_order_button_inherit" model="ir.ui.view">
+			<field name="name">eq.product.product.form.view.inherit</field>
+			<field name="model">product.product</field>
+			<field name="inherit_id" ref="sale.product_form_view_sale_order_button" />
+			<field name="arch" type="xml">
+				<field name="sales_count" position="replace">
+					<field name="eq_sale_count" widget="statinfo" />
+				</field>
+			</field>
+		</record>
+
+		<!-- min. order quantity for product.product -->
+		<record id="eq_sale_product_product_extension_form_view" model="ir.ui.view">
+			<field name="name">eq_sale.product.product.extension.form.view</field>
+			<field name="model">product.product</field>
+			<field name="inherit_id" ref="product.product_normal_form_view" />
+			<field name="arch" type="xml">
+				<field name="lst_price" position="after">
+					<field name="eq_rrp" groups="eq_sale.group_product_rrp"
+						class="eq_db_variant" />
+				</field>
+			</field>
+		</record>
+
+    </data>
+</odoo>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<!-- Lead Form View -->
+		<record id="eq_crm_lead_form_ext" model="ir.ui.view">
+			<field name="name">eq.crm.lead.form.ext</field>
+			<field name="model">crm.lead</field>
+			<field name="inherit_id" ref="crm.crm_case_form_view_leads" />
+			<field name="arch" type="xml">
+                <xpath expr="//group/group[2]" position="replace">
+                    <group>
+                        <label for="contact_name"/>
+                        <field name="title" placeholder="Title" />
+						<field name="firstname" placeholder="Firstname" />
+						<field name="lastname" placeholder="Lastname" />
+                        <separator/>
+						<field name="birthdate" />
+                        <field name="email_from" widget="email"/>
+                        <field name="function"/>
+                        <field name="phone" widget="phone"/>
+                        <field name="mobile"/>
+                    </group>
+                </xpath>
+
+				<field name="street" position="replace">
+					<field name="street" style="width: 80%%" placeholder="Street..." />
+					<field name="eq_house_no" style="width: 20%%" placeholder="House no" />
+				</field>
+				<field name="state_id" position="replace"/>
+				<field name="zip" position="replace"/>
+				<field name="city" position="replace">
+					<div>
+						<field name="zip" placeholder="ZIP" style="width: 25%%"  class="o_address_zip" />
+						<field name="city" style="width: 43%%; margin-right:2%%" placeholder="City" />
+						<field name="eq_citypart" style="width: 28%%" placeholder="District" />
+					</div>
+				</field>
+
+				<field name="country_id" position="replace" >
+					<div>
+					    <field name="country_id" placeholder="Country" style="width: 50%%"
+									options='{"no_open": True, "no_create": True}' />
+                        <field name="state_id"  placeholder="State"
+							style="width: 50%%" options='{"no_open": True}'  />
+					</div>
+				</field>
+				<div class="oe_title" position="attributes">
+					<attribute name="style">width: 50%%</attribute>
+				</div>
+			</field>
+		</record>
+
+		<!-- Oppertunity Form View -->
+		<record model="ir.ui.view" id="eq_crm_case_form_view_oppor_ext">
+			<field name="name">eq.crm.case.form.view.oppor.ext</field>
+			<field name="model">crm.lead</field>
+			<field name="inherit_id" ref="crm.crm_case_form_view_oppor" />
+			<field name="arch" type="xml">
+				<field name="street" position="replace">
+					<field name="street" style="width: 80%%" placeholder="Street..." />
+					<field name="eq_house_no" style="width: 20%%" placeholder="House no" />
+				</field>
+				<field name="state_id" position="replace"/>
+				<field name="zip" position="replace"/>
+				<field name="city" position="replace">
+					<div>
+						<field name="zip" placeholder="ZIP" style="width: 25%%"  class="o_address_zip" />
+						<field name="city" style="width: 43%%; margin-right:2%%" placeholder="City" />
+						<field name="eq_citypart" style="width: 28%%" placeholder="District" />
+					</div>
+				</field>
+				<field name="country_id" position="replace" >
+					<div>
+					   <field name="country_id" placeholder="Country" style="width: 50%%"
+									options='{"no_open": True, "no_create": True}' />
+						<field name="state_id"  placeholder="State"
+							style="width: 50%%" options='{"no_open": True}'  />
+					</div>
+				</field>
+                <xpath expr="//page[@name='lead']/group/group[2]" position="replace">
+                    <group>
+                        <field name="title" placeholder="Title" />
+                        <field name="firstname" placeholder="Firstname" />
+                        <field name="lastname" placeholder="Lastname" />
+                        <field name="birthdate" />
+                        <field name="function"/>
+                        <field name="mobile"/>
+                        <field name="opt_out"/>
+                    </group>
+                </xpath>
+			</field>
+		</record>
+	</data>
+</odoo>

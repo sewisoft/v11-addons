@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="eq_report_general_configuration_form_view" model="ir.ui.view">
+            <field name="name">eq.report.general.configuration.form.view</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='business_documents']//div[hasclass('o_settings_container')]" position="inside">
+                    <div class="col-xs-12 col-md-6 o_setting_box">
+                        <div class="o_setting_right_pane">
+                            <label string="Company Report Logo"/>
+                            <div class="content-group">
+                                <div class="mt16">
+                                <label for="eq_report_logo" string="Logo" class="o_light_label"/>
+                                <field name="eq_report_logo" class="oe_inline" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

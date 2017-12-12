@@ -1,0 +1,711 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* eq_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20171030\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-25 11:00+0000\n"
+"PO-Revision-Date: 2017-11-25 11:00+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_res_partner_eq_sale_quotation_count
+#: model:ir.model.fields,field_description:eq_sale.field_res_users_eq_sale_quotation_count
+msgid "# of Quotations"
+msgstr "# of Quotations"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "&lt;/tbody&gt;\n"
+"                                    &lt;/table&gt;"
+msgstr "&lt;/tbody&gt;\n"
+"                                    &lt;/table&gt;"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "&lt;table class=\"table table-condensed table-row\"&gt;"
+msgstr "&lt;table class=\"table table-condensed table-row\"&gt;"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "&lt;tbody class=\"sale_tbody\"&gt;"
+msgstr "&lt;tbody class=\"sale_tbody\"&gt;"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Contact person</span>"
+msgstr "<span>Ansprechpartner</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Customer no.</span>"
+msgstr "<span>Kundennr.</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>E-Mail</span>"
+msgstr "<span>E-Mail</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Offer valid until</span>"
+msgstr "<span>Angebot gültig bis</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Order date</span>"
+msgstr "<span>Auftragsdatum</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Order no.</span>"
+msgstr "<span>Auftragsnummer.</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Our reference no.</span>"
+msgstr "<span>Unsere Referenz</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Phone</span>"
+msgstr "<span>Telefon</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Quotation date</span>"
+msgstr "<span>Angebotssdatum</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Quotation no.</span>"
+msgstr "<span>Angebotsnummer.</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Quotation</span>"
+msgstr "<span>Angebot</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Sale order</span>"
+msgstr "<span>Auftragsbestätigung</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>VAT Reg. no.</span>"
+msgstr "<span>USt.ID-Nr.</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<span>Your reference no.</span>"
+msgstr "<span>Ihre Referenz.</span>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Delivery Condition:</strong>"
+msgstr "<strong>Lieferbedingungen:</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Delivery Method:</strong>"
+msgstr "<strong>Auslieferungsmethode:</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Discount (%)</strong>"
+msgstr "<strong>Rabatt (%)</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>For further information, please contact</strong>"
+msgstr "<strong>Bei Fragen wenden Sie sich bitte an</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>Incoterm:</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Invoice address:</strong>"
+msgstr "<strong>Rechnungsanschrift:</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Item description</strong>"
+msgstr "<strong>Beschreibung</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Item no.</strong>"
+msgstr "<strong>Artikelnr.</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Net price</strong>"
+msgstr "<strong>Nettopreis</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Pos.</strong>"
+msgstr "<strong>Pos.</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Qty.</strong>"
+msgstr "<strong>Menge</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Subtotal: </strong>"
+msgstr "<strong>Zwischensumme:</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Term of payment:</strong>"
+msgstr "<strong>Zahlungsbedingungen:</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Total Price</strong>"
+msgstr "<strong>Total Price</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Total sum</strong>"
+msgstr "<strong>Gesamtbetrag</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Unit price</strong>"
+msgstr "<strong>Einzelpreis</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>Unit</strong>"
+msgstr "<strong>Einheit</strong>"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "<strong>VAT</strong>"
+msgstr "<strong>USt.</strong>"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_layout_category_separator
+msgid "Add separator"
+msgstr "Vorschau Buttonr"
+
+#. module: eq_sale
+#: code:addons/eq_sale/models/sale.py:221
+#, python-format
+msgid "All the optional positions will be removed."
+msgstr "Alle optionalen Positionen werden aus dem Auftrag entfernt."
+
+#. module: eq_sale
+#: selection:res.partner,eq_delivery_date_type_sale:0
+msgid "Calendar week"
+msgstr "Kalenderwoche"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_info_optional_form_view
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. module: eq_sale
+#: model:ir.actions.act_window,help:eq_sale.eq_act_res_partner_order
+#: model:ir.actions.act_window,help:eq_sale.eq_act_res_partner_quotation
+msgid "Click to create a quotation or sales order for this customer."
+msgstr "Klicken Sie zur Erstellung eines Angebots oder eines Auftrags für diesen Kunden."
+
+#. module: eq_sale
+#: code:addons/eq_sale/models/res_partner.py:181
+#: code:addons/eq_sale/models/res_partner.py:184
+#, python-format
+msgid "Company"
+msgstr "Firma"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_info_optional_form_view
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_sale_address_fields_view_order_form_inherit
+msgid "Confirm Sale"
+msgstr "Auftrag bestätigen"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_delivery_conditions_create_uid
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional_create_uid
+#: model:ir.model.fields,field_description:eq_sale.field_eq_install_func_create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_delivery_conditions_create_date
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional_create_date
+#: model:ir.model.fields,field_description:eq_sale.field_eq_install_func_create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_view_sale_config_settings_show_address
+msgid "Customer"
+msgstr "Kunde"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_sale_view_partner_tree
+msgid "Customer Number"
+msgstr "Kundennummer"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_view_sale_config_settings_show_address
+msgid "Customer search settings [eq_sale]"
+msgstr "Sucheinstellungen [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.actions.act_window,name:eq_sale.eq_action_partner_customer_form
+msgid "Customers"
+msgstr "Kunden"
+
+#. module: eq_sale
+#: selection:res.partner,eq_delivery_date_type_sale:0
+msgid "Date"
+msgstr "Datum"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_sale_address_fields_view_order_form_inherit
+msgid "Dear Sir or Madam,"
+msgstr "Sehr geehrte Damen und Herren,"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_line_get_delivery_date
+msgid "Delivery"
+msgstr "Delivery"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_res_partner_eq_delivery_condition_id
+#: model:ir.model.fields,field_description:eq_sale.field_res_users_eq_delivery_condition_id
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_eq_delivery_condition_id
+msgid "Delivery Condition"
+msgstr "Lieferbedingungen"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_line_eq_delivery_date
+#: model:ir.ui.view,arch_db:eq_sale.eq_view_sale_config_settings_show_address
+msgid "Delivery Date"
+msgstr "Liefertermin"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_res_partner_eq_delivery_date_type_sale
+#: model:ir.model.fields,field_description:eq_sale.field_res_users_eq_delivery_date_type_sale
+msgid "Delivery Date Sale"
+msgstr "Lieferdatum Verkauf"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "Delivery date:"
+msgstr "Lieferdatum:"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_delivery_conditions_display_name
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional_display_name
+#: model:ir.model.fields,field_description:eq_sale.field_eq_install_func_display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional_eq_info_text
+msgid "Eq Info Text"
+msgstr "Eq Info Text"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional_eq_sale_id
+msgid "Eq Sale"
+msgstr "Eq Sale"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_sale_address_fields_view_order_form_inherit
+msgid "Foot Text"
+msgstr "Fußtext"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_sale_address_fields_view_order_form_inherit
+msgid "Head Text"
+msgstr "Kopftext"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_eq_head_text
+msgid "Header"
+msgstr "Kopftext"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_delivery_conditions_id
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional_id
+#: model:ir.model.fields,field_description:eq_sale.field_eq_install_func_id
+msgid "ID"
+msgstr "ID"
+
+#. module: eq_sale
+#: model:ir.model.fields,help:eq_sale.field_res_partner_eq_delivery_date_type_sale
+#: model:ir.model.fields,help:eq_sale.field_res_users_eq_delivery_date_type_sale
+msgid "If nothing is selected, the default from the settings will be used."
+msgstr "Wenn keine Auswahl getroffen ist, wird der Standardwert aus den Einstellungen genommen. Das Lieferdatum muss in den Einstellungen aktiviert sein."
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_eq_foot_text_invoice
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_eq_foot_text_invoice
+msgid "Invoice foot text [eq_sale]"
+msgstr "Fußtext [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_eq_head_text_invoice
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_eq_head_text_invoice
+msgid "Invoice head text [eq_sale]"
+msgstr "Kopftext [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_view_sale_config_settings_show_address
+msgid "Invoices"
+msgstr "Rechnungen"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_delivery_conditions___last_update
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional___last_update
+#: model:ir.model.fields,field_description:eq_sale.field_eq_install_func___last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_delivery_conditions_write_uid
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional_write_uid
+#: model:ir.model.fields,field_description:eq_sale.field_eq_install_func_write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert durch"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_delivery_conditions_write_date
+#: model:ir.model.fields,field_description:eq_sale.field_eq_info_optional_write_date
+#: model:ir.model.fields,field_description:eq_sale.field_eq_install_func_write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_delivery_conditions_eq_name
+msgid "Name"
+msgstr "Name"
+
+#. module: eq_sale
+#: model:ir.actions.act_window,help:eq_sale.eq_act_res_partner_order
+#: model:ir.actions.act_window,help:eq_sale.eq_act_res_partner_quotation
+msgid "Odoo will help you efficiently handle the complete sale flow:\n"
+"                    quotation, sales order, delivery, invoicing and\n"
+"                    payment."
+msgstr "Odoo will help you efficiently handle the complete sale flow:\n"
+"                    quotation, sales order, delivery, invoicing and\n"
+"                    payment."
+
+#. module: eq_sale
+#: model:ir.model.fields,help:eq_sale.field_eq_mail_config_settings_default_search_only_company
+#: model:ir.model.fields,help:eq_sale.field_res_config_settings_default_search_only_company
+msgid "Only Companies will be shown in the Customer search of the Sale and Purchase Order."
+msgstr "Only Companies will be shown in the Customer search of the Sale and Purchase Order."
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_default_search_only_company
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_default_search_only_company
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_default_search_only_company
+msgid "Only Search for Companies [eq_sale]"
+msgstr "Only Search for Companies [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_view_sale_config_settings_show_address
+msgid "Only search for Companies in the Sale Order/Quotation [eq_sale]"
+msgstr "Suche nur nach Firmen in den Angeboten und Verkaufsaufträgen [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_line_eq_optional
+msgid "Optional"
+msgstr "Optional"
+
+#. module: eq_sale
+#: model:ir.actions.act_window,name:eq_sale.eq_act_res_partner_order
+msgid "Order"
+msgstr "Auftrag"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "Others"
+msgstr "Weitere Produkte"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_eq_use_page_break_after_header
+#: model:ir.ui.view,arch_db:eq_sale.eq_sale_address_fields_view_order_form_inherit
+msgid "Page break after header text"
+msgstr "Seitenumbruch nach Kopftext"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_eq_use_page_break_before_footer
+#: model:ir.ui.view,arch_db:eq_sale.eq_sale_address_fields_view_order_form_inherit
+msgid "Page break before footer text"
+msgstr "Seitenumbruch vor dem Fußtext"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_sale_form_quote
+msgid "Preview"
+msgstr "Vorschau"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_product_product
+msgid "Product"
+msgstr "Produkt"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_product_template
+msgid "Product Template"
+msgstr "Produktvorlage"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_sale_order
+msgid "Quotation"
+msgstr "Angebot"
+
+#. module: eq_sale
+#: model:ir.actions.act_window,name:eq_sale.eq_act_res_partner_quotation
+#: model:ir.ui.view,arch_db:eq_sale.res_partner_view_buttons
+msgid "Quotations"
+msgstr "Angebote"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_product_product_eq_rrp
+msgid "RRP"
+msgstr "UVP"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_view_sale_config_settings_show_address
+msgid "Reports"
+msgstr "Assaɣen"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_product_product_eq_sale_count
+#: model:ir.model.fields,field_description:eq_sale.field_product_template_eq_sale_count
+#: model:ir.ui.view,arch_db:eq_sale.eq_product_template_form_view_sale_order_button_inherit
+#: model:ir.ui.view,arch_db:eq_sale.res_partner_view_buttons
+msgid "Sales"
+msgstr "Verkauf"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Auftragsposition"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "Shipping address:"
+msgstr "Lieferadresse:"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_default_use_calendar_week
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_default_use_calendar_week
+msgid "Show Calendar Week for Delivery Date [eq_sale]"
+msgstr "Liefertermin als Kalenderwoche anzeigen [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_show_delivery_date
+msgid "Show Delivery Date"
+msgstr "Liefertermin Anzeige"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_default_eq_show_preview_button
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_default_eq_show_preview_button
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_eq_show_preview_button
+msgid "Show Preview-Button in Sale Order [eq_sale]"
+msgstr "Vorschau Button in Angeboten/Verkaufsaufträgen anzeigen [eq_sale]"
+
+#. module: eq_sale
+#: model:res.groups,name:eq_sale.group_product_rrp
+msgid "Show RRP for products"
+msgstr "UVP für Produkte anzeigen"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_group_product_rrp
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_group_product_rrp
+msgid "Show RRP for products [eq_sale]"
+msgstr "UVP für Produkte anzeigen [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_default_show_address
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_default_show_address
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_default_show_address
+msgid "Show street and city in the partner search of the Sale and Purchase Order [eq_sale]"
+msgstr "Show street and city in the partner search of the Sale and Purchase Order [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_view_sale_config_settings_show_address
+msgid "Show street and city in the partner search of the saleorder [eq_sale]"
+msgstr "Zeige Straße und Ort in der Kundensuche für Verkaufsaufträge [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_default_show_delivery_date
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_default_show_delivery_date
+msgid "Show the Delivery Date on the Sale Order [eq_sale]"
+msgstr "Liefertermin auf Angebot und Auftragsbestätigung anzeigen [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "Tax"
+msgstr "Steuer"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_view_sale_config_settings_show_address
+msgid "Texts"
+msgstr "Texte"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_default_creator_saleperson
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_default_creator_saleperson
+#: model:ir.model.fields,field_description:eq_sale.field_res_partner_default_creator_saleperson
+#: model:ir.model.fields,field_description:eq_sale.field_res_users_default_creator_saleperson
+msgid "The creator of the address dataset will be set automatically as sales person. [eq_sale]"
+msgstr "The creator of the address dataset will be set automatically as sales person. [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.model.fields,help:eq_sale.field_eq_mail_config_settings_default_use_calendar_week
+#: model:ir.model.fields,help:eq_sale.field_res_config_settings_default_use_calendar_week
+msgid "The delivery date will be shown as a calendar week"
+msgstr "The delivery date will be shown as a calendar week"
+
+#. module: eq_sale
+#: model:ir.model.fields,help:eq_sale.field_eq_mail_config_settings_default_show_delivery_date
+#: model:ir.model.fields,help:eq_sale.field_res_config_settings_default_show_delivery_date
+msgid "The delivery date will be shown in the Sale Order"
+msgstr "The delivery date will be shown in the Sale Order"
+
+#. module: eq_sale
+#: model:ir.model.fields,help:eq_sale.field_eq_mail_config_settings_default_eq_use_internal_description
+#: model:ir.model.fields,help:eq_sale.field_res_config_settings_default_eq_use_internal_description
+msgid "The internal description will be used for sale orders not the sale description"
+msgstr "The internal description will be used for sale orders not the sale description"
+
+#. module: eq_sale
+#: code:addons/eq_sale/models/sale.py:227
+#, python-format
+msgid "The order contains optional positions!"
+msgstr "Optionale Positionen im Auftrag!"
+
+#. module: eq_sale
+#: model:ir.actions.act_window,help:eq_sale.eq_act_res_partner_order
+#: model:ir.actions.act_window,help:eq_sale.eq_act_res_partner_quotation
+msgid "The social feature helps you organize discussions on each sales\n"
+"                    order, and allow your customer to keep track of the evolution\n"
+"                    of the sales order."
+msgstr "The social feature helps you organize discussions on each sales\n"
+"                    order, and allow your customer to keep track of the evolution\n"
+"                    of the sales order."
+
+#. module: eq_sale
+#: model:ir.model.fields,help:eq_sale.field_eq_mail_config_settings_default_show_address
+#: model:ir.model.fields,help:eq_sale.field_res_config_settings_default_show_address
+msgid "This adds the street and the city to the results of the partner search of the Sale and Purchase Order."
+msgstr "This adds the street and the city to the results of the partner search of the Sale and Purchase Order."
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "Total without taxes"
+msgstr "Nettobetrag"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_use_calendar_week
+msgid "Use Calendar Week for Delivery Date[eq_sale]"
+msgstr "Kalenderwoche anzeigen[eq_sale]"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_line_eq_use_internal_description
+msgid "Use internal description for sale orders"
+msgstr "Bei Angebote/Verkaufsaufträge wird die interne Beschreibung an Stelle der Verkaufsbeschreibung verwenden"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_default_eq_use_internal_description
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_default_eq_use_internal_description
+msgid "Use internal description for sale orders [eq_sale]"
+msgstr "Use internal description for sale orders [eq_sale]"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_eq_mail_config_settings_eq_use_text_from_order
+#: model:ir.model.fields,field_description:eq_sale.field_res_config_settings_eq_use_text_from_order
+msgid "Use text from order [eq_sale]"
+msgstr "Benutze Kopf- und Fusstext aus Auftrag [eq_sale]"
+
+#. module: eq_sale
+#: code:addons/eq_sale/models/res_partner.py:189
+#, python-format
+msgid "contact"
+msgstr "Kontakt"
+
+#. module: eq_sale
+#: code:addons/eq_sale/models/res_partner.py:195
+#, python-format
+msgid "default"
+msgstr "Standard"
+
+#. module: eq_sale
+#: code:addons/eq_sale/models/res_partner.py:193
+#, python-format
+msgid "delivery"
+msgstr "Lieferung"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_eq_delivery_conditions
+msgid "eq.delivery.conditions"
+msgstr "eq.delivery.conditions"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_eq_info_optional
+msgid "eq_info_optional"
+msgstr "eq_info_optional"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_eq_install_func
+msgid "eq_install_func"
+msgstr "eq_install_func"
+
+#. module: eq_sale
+#: code:addons/eq_sale/models/res_partner.py:191
+#, python-format
+msgid "invoice"
+msgstr "Rechnung"
+
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_info_optional_form_view
+msgid "or"
+msgstr "oder"
+
+#. module: eq_sale
+#: code:addons/eq_sale/models/res_partner.py:197
+#, python-format
+msgid "other"
+msgstr "Andere"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: eq_sale
+#: model:ir.model,name:eq_sale.model_sale_layout_category
+msgid "sale.layout_category"
+msgstr "sale.layout_category"
+
