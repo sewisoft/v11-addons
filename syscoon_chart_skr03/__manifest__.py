@@ -3,7 +3,7 @@
 
 {
     'name': 'syscoon SKR03 - Accounting',
-    'version': '11.0.1.0',
+    'version': '10.0.1.1',
     'author': 'Mathias Neef',
     'website': 'https://syscoon.com',
     'category': 'Localization/Account Charts',
@@ -14,12 +14,14 @@ Dieses  Modul beinhaltet einen deutschen Kontenrahmen basierend auf dem SKR03.
 German accounting chart and localization.
     """,
     'category': 'Localization',
-    'depends': ['l10n_de'],
+    'depends': ['l10n_de', 'eq_syscoon'],
     'demo': [],
     'data': [
+       # 'data/data.xml',
+        #'data/tags.xml',
         'account_chart.xml',
         'account_tax_fiscal_position.xml',
         'account.chart.template.yml',
     ],
-    'installable': False,
+    'installable': True,
 }
