@@ -3,7 +3,7 @@
 
 {
     'name': 'syscoon Kontenrahmen SKR04',
-    'version': '11.0.1.0',
+    'version': '10.0.1.1',
     'author': 'Mathias Neef',
     'website': 'https://syscoon.com',
     'category': 'Localization/Account Charts',
@@ -13,7 +13,7 @@ Dieses  Modul beinhaltet einen deutschen Kontenrahmen basierend auf dem SKR04.
 
 German accounting chart and localization.
     """,
-    'depends': ['l10n_de'],
+    'depends': ['l10n_de', 'eq_syscoon'],
     'category': 'Localization',
     'demo': [],
     'data': [
@@ -21,5 +21,5 @@ German accounting chart and localization.
         'account_tax_fiscal_position.xml',
         'account.chart.template.yml',
     ],
-    'installable': False,
+    'installable': True,
 }

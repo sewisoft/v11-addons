@@ -7283,7 +7283,7 @@
           <field name="code">9000</field>
           <field name="name">Saldenvorträge- Sachkonten</field>
           <field name="reconcile" eval="False"/>
-          <field name="user_type_id" ref="l10n_de.account_type_other"/>
+          <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
           <field name="chart_template_id" ref="l10n_de_chart_template"/>
         </record>
 
@@ -7291,7 +7291,7 @@
           <field name="code">9001</field>
           <field name="name">Saldenvorträge</field>
           <field name="reconcile" eval="False"/>
-          <field name="user_type_id" ref="l10n_de.account_type_other"/>
+          <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
           <field name="chart_template_id" ref="l10n_de_chart_template"/>
         </record>
 
@@ -7299,7 +7299,7 @@
           <field name="code">9008</field>
           <field name="name">Saldenvorträge Debitoren</field>
           <field name="reconcile" eval="False"/>
-          <field name="user_type_id" ref="l10n_de.account_type_other"/>
+          <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
           <field name="chart_template_id" ref="l10n_de_chart_template"/>
         </record>
 
@@ -7307,7 +7307,7 @@
           <field name="code">9009</field>
           <field name="name">Saldenvorträge Kreditoren</field>
           <field name="reconcile" eval="False"/>
-          <field name="user_type_id" ref="l10n_de.account_type_other"/>
+          <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
           <field name="chart_template_id" ref="l10n_de_chart_template"/>
         </record>
 

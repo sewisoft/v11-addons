@@ -8720,7 +8720,7 @@
         <field name="code">9000</field>
         <field name="name">Saldenvorträge- Sachkonten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8728,7 +8728,7 @@
         <field name="code">9001</field>
         <field name="name">Saldenvorträge</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8736,7 +8736,7 @@
         <field name="code">9008</field>
         <field name="name">Saldenvorträge Debitoren</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8744,7 +8744,7 @@
         <field name="code">9009</field>
         <field name="name">Saldenvorträge Kreditoren</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8752,7 +8752,7 @@
         <field name="code">9060</field>
         <field name="name">Offene Posten aus 1990</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8760,7 +8760,7 @@
         <field name="code">9069</field>
         <field name="name">Offene Posten aus 1999</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8768,7 +8768,7 @@
         <field name="code">9070</field>
         <field name="name">Offene Posten aus 2000</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8776,7 +8776,7 @@
         <field name="code">9071</field>
         <field name="name">Offene Posten aus 2001</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8784,7 +8784,7 @@
         <field name="code">9072</field>
         <field name="name">Offene Posten aus 2002</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8792,7 +8792,7 @@
         <field name="code">9073</field>
         <field name="name">Offene Posten aus 2003</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8800,7 +8800,7 @@
         <field name="code">9074</field>
         <field name="name">Offene Posten aus 2004</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8808,7 +8808,7 @@
         <field name="code">9075</field>
         <field name="name">Offene Posten aus 2005</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8816,7 +8816,7 @@
         <field name="code">9076</field>
         <field name="name">Offene Posten aus 2006</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8824,7 +8824,7 @@
         <field name="code">9077</field>
         <field name="name">Offene Posten aus 2007</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8832,7 +8832,7 @@
         <field name="code">9078</field>
         <field name="name">Offene Posten aus 2008</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8840,7 +8840,7 @@
         <field name="code">9079</field>
         <field name="name">Offene Posten aus 2009</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8848,7 +8848,7 @@
         <field name="code">9090</field>
         <field name="name">Summenvortragskonto</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8856,7 +8856,7 @@
         <field name="code">9091</field>
         <field name="name">Offene Posten aus 1991</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8864,7 +8864,7 @@
         <field name="code">9092</field>
         <field name="name">Offene Posten aus 1992</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8872,7 +8872,7 @@
         <field name="code">9093</field>
         <field name="name">Offene Posten aus 1993</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8880,7 +8880,7 @@
         <field name="code">9094</field>
         <field name="name">Offene Posten aus 1994</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8888,7 +8888,7 @@
         <field name="code">9095</field>
         <field name="name">Offene Posten aus 1995</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8896,7 +8896,7 @@
         <field name="code">9096</field>
         <field name="name">Offene Posten aus 1996</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8904,7 +8904,7 @@
         <field name="code">9097</field>
         <field name="name">Offene Posten aus 1997</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8912,7 +8912,7 @@
         <field name="code">9098</field>
         <field name="name">Offene Posten aus 1998</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8920,7 +8920,7 @@
         <field name="code">9101</field>
         <field name="name">Verkaufstage</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8928,7 +8928,7 @@
         <field name="code">9102</field>
         <field name="name">Anzahl der Barkunden</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8936,7 +8936,7 @@
         <field name="code">9103</field>
         <field name="name">Beschäftigte Personen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8944,7 +8944,7 @@
         <field name="code">9104</field>
         <field name="name">Unbezahlte Personen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8952,7 +8952,7 @@
         <field name="code">9105</field>
         <field name="name">Verkaufskräfte</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8960,7 +8960,7 @@
         <field name="code">9106</field>
         <field name="name">Geschäftsraum m2</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8968,7 +8968,7 @@
         <field name="code">9107</field>
         <field name="name">Verkaufsraum m2</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8976,7 +8976,7 @@
         <field name="code">9116</field>
         <field name="name">Anzahl Rechnungen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8984,7 +8984,7 @@
         <field name="code">9117</field>
         <field name="name">Anzahl Kreditkunden monatlich</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -8992,7 +8992,7 @@
         <field name="code">9118</field>
         <field name="name">Anzahl Kreditkunden aufgelaufen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9000,7 +9000,7 @@
         <field name="code">9120</field>
         <field name="name">Erweiterungsinvestitionen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9008,7 +9008,7 @@
         <field name="code">9135</field>
         <field name="name">Auftragseingang im Geschäftsjahr</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9016,7 +9016,7 @@
         <field name="code">9140</field>
         <field name="name">Auftragsbestand</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9024,7 +9024,7 @@
         <field name="code">9190</field>
         <field name="name">Gegenkonto für statistische Mengeneinheiten Konten 9101-9107 und Konten 9116-9118</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9032,7 +9032,7 @@
         <field name="code">9199</field>
         <field name="name">Gegenkonto zu Konten 9120- 9135-9140</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9040,7 +9040,7 @@
         <field name="code">9200</field>
         <field name="name">Beschäftigte Personen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9048,7 +9048,7 @@
         <field name="code">9209</field>
         <field name="name">Gegenkonto zu 9200</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9056,7 +9056,7 @@
         <field name="code">9210</field>
         <field name="name">Produktive Löhne</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9064,7 +9064,7 @@
         <field name="code">9219</field>
         <field name="name">Gegenkonto zu 9210</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9072,7 +9072,7 @@
         <field name="code">9220</field>
         <field name="name">Gezeichnetes Kapital in DM (Art. 42 Abs. 3 S. 1 EGHGB)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9080,7 +9080,7 @@
         <field name="code">9221</field>
         <field name="name">Gezeichnetes Kapital in Euro (Art. 42 Abs. 3 S. 2 EGHGB)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9088,7 +9088,7 @@
         <field name="code">9229</field>
         <field name="name">Gegenkonto zu 9220-9221</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9096,7 +9096,7 @@
         <field name="code">9230</field>
         <field name="name">Baukostenzuschüsse</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9104,7 +9104,7 @@
         <field name="code">9232</field>
         <field name="name">Investitionszulagen </field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9112,7 +9112,7 @@
         <field name="code">9234</field>
         <field name="name">Investitionszuschüsse </field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9120,7 +9120,7 @@
         <field name="code">9239</field>
         <field name="name">Gegenkonto zu Konten 9230- 9238</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9128,7 +9128,7 @@
         <field name="code">9240</field>
         <field name="name">Investitionsverbindlichkeiten bei den Leistungsverbindlichkeiten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9136,7 +9136,7 @@
         <field name="code">9241</field>
         <field name="name">Investitionsverbindlichkeiten aus Sachanlagenkäufen bei Leistungsverbindlichkeiten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9144,7 +9144,7 @@
         <field name="code">9242</field>
         <field name="name">Investitionsverbindlichkeiten aus Käufen von immateriellen Vermögensgegenständen bei Leistungsverbindlichkeiten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9152,7 +9152,7 @@
         <field name="code">9243</field>
         <field name="name">Investitionsverbindlichkeiten aus Käufen von Finanzanlagen bei Leistungsverbindlichkeiten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9160,7 +9160,7 @@
         <field name="code">9244</field>
         <field name="name">Gegenkonto zu Konto 9240-43</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9168,7 +9168,7 @@
         <field name="code">9245</field>
         <field name="name">Forderungen aus Sachanlagenverkäufen bei sonstigen Vermögensgegenständen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9176,7 +9176,7 @@
         <field name="code">9246</field>
         <field name="name">Forderungen aus Verkäufen immaterielle Vermögensgegenstände bei sonstigen Vermögensgegenständen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9184,7 +9184,7 @@
         <field name="code">9247</field>
         <field name="name">Forderungen aus Verkäufen von Finanzanlagen bei sonstigen Vermögensgegenständen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9192,7 +9192,7 @@
         <field name="code">9249</field>
         <field name="name">Gegenkonto zu Konto 9245-47</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9200,7 +9200,7 @@
         <field name="code">9250</field>
         <field name="name">Eigenkapitalersetzende Gesellschafterdarlehen </field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9208,7 +9208,7 @@
         <field name="code">9255</field>
         <field name="name">Ungesicherte Gesellschafterdarlehen mit Restlaufzeit größer 5 Jahre</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9216,7 +9216,7 @@
         <field name="code">9259</field>
         <field name="name">Gegenkonto zu 9250 und 9255</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9224,7 +9224,7 @@
         <field name="code">9260</field>
         <field name="name">Kurzfristige Rückstellungen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9232,7 +9232,7 @@
         <field name="code">9262</field>
         <field name="name">Mittelfristige Rückstellungen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9240,7 +9240,7 @@
         <field name="code">9264</field>
         <field name="name">Langfristige Rückstellungen- außer Pensionen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9248,7 +9248,7 @@
         <field name="code">9269</field>
         <field name="name">Gegenkonto zu Konto 9260 - 9268</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9256,7 +9256,7 @@
         <field name="code">9270</field>
         <field name="name">Gegenkonto zu 9271 - 9279 (Soll-Buchung)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9264,7 +9264,7 @@
         <field name="code">9271</field>
         <field name="name">Verbindlichkeiten aus der Begebung und übertragung von Wechseln</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9272,7 +9272,7 @@
         <field name="code">9272</field>
         <field name="name">Verbindlichkeiten aus der Begebung und übertragung von Wechseln gegenüber verbundenen Unternehmen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9280,7 +9280,7 @@
         <field name="code">9273</field>
         <field name="name">Verbindlichkeiten aus Bürgschaften- Wechsel- und Scheckbürgschaften</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9288,7 +9288,7 @@
         <field name="code">9274</field>
         <field name="name">Verbindlichkeiten aus Bürgschaften- Wechsel- und Scheckbürgschaften gegenüber verbundenen Unternehmen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9296,7 +9296,7 @@
         <field name="code">9275</field>
         <field name="name">Verbindlichkeiten aus Gewährleistungsverträgen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9304,7 +9304,7 @@
         <field name="code">9276</field>
         <field name="name">Verbindlichkeiten aus Gewährleistungsverträgen gegenüber verbundenen Unternehmen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9312,7 +9312,7 @@
         <field name="code">9277</field>
         <field name="name">Haftung aus der Bestellung von Sicherheiten für fremde Verbindlichkeiten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9320,7 +9320,7 @@
         <field name="code">9278</field>
         <field name="name">Haftung aus der Bestellung von Sicherheiten für fremde Verbindlichkeiten gegenüber verbundenen Unternehmen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9328,7 +9328,7 @@
         <field name="code">9279</field>
         <field name="name">Verpflichtungen aus Treuhandvermögen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9336,7 +9336,7 @@
         <field name="code">9280</field>
         <field name="name">Gegenkonto zu 9281-9284</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9344,7 +9344,7 @@
         <field name="code">9281</field>
         <field name="name">Verpflichtungen aus Miet- und Leasingsverträgen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9352,7 +9352,7 @@
         <field name="code">9282</field>
         <field name="name">Verpflichtungen aus Miet- und Leasingsverträgen gegenüber verbundenen Unternehmen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9360,7 +9360,7 @@
         <field name="code">9283</field>
         <field name="name">Andere Verpflichtungen gemäß § 285 Nr. 3 HGB</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9368,7 +9368,7 @@
         <field name="code">9284</field>
         <field name="name">Andere Verpflichtungen gemäß § 285 Nr. 3 HGB gegenüber verbundenen Unternehmen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9376,7 +9376,7 @@
         <field name="code">9287</field>
         <field name="name">Zinsen bei Buchungen über Debitoren bei § 4 Abs. 3 EStG</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9384,7 +9384,7 @@
         <field name="code">9288</field>
         <field name="name">Mahngebühren bei Buchungen über Debitoren bei § 4 Abs. 3 EStG</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9392,7 +9392,7 @@
         <field name="code">9289</field>
         <field name="name">Gegenkonto zu 9287 und 9288</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9400,7 +9400,7 @@
         <field name="code">9290</field>
         <field name="name">Statistisches Konto steuerfreie Auslagen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9408,7 +9408,7 @@
         <field name="code">9291</field>
         <field name="name">Gegenkonto zu 9290</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9416,7 +9416,7 @@
         <field name="code">9292</field>
         <field name="name">Statistisches Konto Fremdgeld</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9424,7 +9424,7 @@
         <field name="code">9293</field>
         <field name="name">Gegenkonto zu 9292</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9432,7 +9432,7 @@
         <field name="code">9295</field>
         <field name="name">Einlagen stiller Gesellschafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9440,7 +9440,7 @@
         <field name="code">9297</field>
         <field name="name">Steuerrechtlicher Ausgleichsposten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9448,7 +9448,7 @@
         <field name="code">9400</field>
         <field name="name">Privatentnahmen allgemein</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9456,7 +9456,7 @@
         <field name="code">9410</field>
         <field name="name">Privatsteuern</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9464,7 +9464,7 @@
         <field name="code">9420</field>
         <field name="name">Sonderausgaben beschränkt abzugsfähig</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9472,7 +9472,7 @@
         <field name="code">9430</field>
         <field name="name">Sonderausgaben unbeschränkt abzugsfähig</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9480,7 +9480,7 @@
         <field name="code">9440</field>
         <field name="name">Zuwendungen- Spenden</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9488,7 +9488,7 @@
         <field name="code">9450</field>
         <field name="name">Außergewöhnliche Belastungen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9496,7 +9496,7 @@
         <field name="code">9460</field>
         <field name="name">Grundstücksaufwand</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9504,7 +9504,7 @@
         <field name="code">9470</field>
         <field name="name">Grundstücksertrag</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9512,7 +9512,7 @@
         <field name="code">9480</field>
         <field name="name">Unentgeltliche Wertabgaben</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9520,7 +9520,7 @@
         <field name="code">9490</field>
         <field name="name">Privateinlagen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9528,7 +9528,7 @@
         <field name="code">9500</field>
         <field name="name">Anteil für Konto Vollhafter 2000</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9536,7 +9536,7 @@
         <field name="code">9501</field>
         <field name="name">Anteil für Konto Vollhafter 2001</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9544,7 +9544,7 @@
         <field name="code">9502</field>
         <field name="name">Anteil für Konto Vollhafter 2002</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9552,7 +9552,7 @@
         <field name="code">9503</field>
         <field name="name">Anteil für Konto Vollhafter 2003</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9560,7 +9560,7 @@
         <field name="code">9504</field>
         <field name="name">Anteil für Konto Vollhafter 2004</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9568,7 +9568,7 @@
         <field name="code">9505</field>
         <field name="name">Anteil für Konto Vollhafter 2005</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9576,7 +9576,7 @@
         <field name="code">9506</field>
         <field name="name">Anteil für Konto Vollhafter 2006</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9584,7 +9584,7 @@
         <field name="code">9507</field>
         <field name="name">Anteil für Konto Vollhafter 2007</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9592,7 +9592,7 @@
         <field name="code">9508</field>
         <field name="name">Anteil für Konto Vollhafter 2008</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9600,7 +9600,7 @@
         <field name="code">9509</field>
         <field name="name">Anteil für Konto Vollhafter 2009</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9608,7 +9608,7 @@
         <field name="code">9510</field>
         <field name="name">Anteil für Konto Vollhafter 2010</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9616,7 +9616,7 @@
         <field name="code">9511</field>
         <field name="name">Anteil für Konto Vollhafter 2011</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9624,7 +9624,7 @@
         <field name="code">9512</field>
         <field name="name">Anteil für Konto Vollhafter 2012</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9632,7 +9632,7 @@
         <field name="code">9513</field>
         <field name="name">Anteil für Konto Vollhafter 2013</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9640,7 +9640,7 @@
         <field name="code">9514</field>
         <field name="name">Anteil für Konto Vollhafter 2014</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9648,7 +9648,7 @@
         <field name="code">9515</field>
         <field name="name">Anteil für Konto Vollhafter 2015</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9656,7 +9656,7 @@
         <field name="code">9516</field>
         <field name="name">Anteil für Konto Vollhafter 2016</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9664,7 +9664,7 @@
         <field name="code">9517</field>
         <field name="name">Anteil für Konto Vollhafter 2017</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9672,7 +9672,7 @@
         <field name="code">9518</field>
         <field name="name">Anteil für Konto Vollhafter 2018</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9680,7 +9680,7 @@
         <field name="code">9519</field>
         <field name="name">Anteil für Konto Vollhafter 2019</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9688,7 +9688,7 @@
         <field name="code">9520</field>
         <field name="name">Anteil für Konto Vollhafter 2020</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9696,7 +9696,7 @@
         <field name="code">9521</field>
         <field name="name">Anteil für Konto Vollhafter 2021</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9704,7 +9704,7 @@
         <field name="code">9522</field>
         <field name="name">Anteil für Konto Vollhafter 2022</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9712,7 +9712,7 @@
         <field name="code">9523</field>
         <field name="name">Anteil für Konto Vollhafter 2023</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9720,7 +9720,7 @@
         <field name="code">9524</field>
         <field name="name">Anteil für Konto Vollhafter 2024</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9728,7 +9728,7 @@
         <field name="code">9525</field>
         <field name="name">Anteil für Konto Vollhafter 2025</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9736,7 +9736,7 @@
         <field name="code">9526</field>
         <field name="name">Anteil für Konto Vollhafter 2026</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9744,7 +9744,7 @@
         <field name="code">9527</field>
         <field name="name">Anteil für Konto Vollhafter 2027</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9752,7 +9752,7 @@
         <field name="code">9528</field>
         <field name="name">Anteil für Konto Vollhafter 2028</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9760,7 +9760,7 @@
         <field name="code">9529</field>
         <field name="name">Anteil für Konto Vollhafter 2029</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9768,7 +9768,7 @@
         <field name="code">9530</field>
         <field name="name">Anteil für Konto Vollhafter 9810</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9776,7 +9776,7 @@
         <field name="code">9531</field>
         <field name="name">Anteil für Konto Vollhafter 9811</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9784,7 +9784,7 @@
         <field name="code">9532</field>
         <field name="name">Anteil für Konto Vollhafter 9812</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9792,7 +9792,7 @@
         <field name="code">9533</field>
         <field name="name">Anteil für Konto Vollhafter 9813</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9800,7 +9800,7 @@
         <field name="code">9534</field>
         <field name="name">Anteil für Konto Vollhafter 9814</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9808,7 +9808,7 @@
         <field name="code">9535</field>
         <field name="name">Anteil für Konto Vollhafter 9815</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9816,7 +9816,7 @@
         <field name="code">9536</field>
         <field name="name">Anteil für Konto Vollhafter 9816</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9824,7 +9824,7 @@
         <field name="code">9537</field>
         <field name="name">Anteil für Konto Vollhafter 9817</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9832,7 +9832,7 @@
         <field name="code">9538</field>
         <field name="name">Anteil für Konto Vollhafter 9818</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9840,7 +9840,7 @@
         <field name="code">9539</field>
         <field name="name">Anteil für Konto Vollhafter 9819</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9848,7 +9848,7 @@
         <field name="code">9540</field>
         <field name="name">Anteil für Konto Vollhafter 0060</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9856,7 +9856,7 @@
         <field name="code">9541</field>
         <field name="name">Anteil für Konto Vollhafter 0061</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9864,7 +9864,7 @@
         <field name="code">9542</field>
         <field name="name">Anteil für Konto Vollhafter 0062</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9872,7 +9872,7 @@
         <field name="code">9543</field>
         <field name="name">Anteil für Konto Vollhafter 0063</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9880,7 +9880,7 @@
         <field name="code">9544</field>
         <field name="name">Anteil für Konto Vollhafter 0064</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9888,7 +9888,7 @@
         <field name="code">9545</field>
         <field name="name">Anteil für Konto Vollhafter 0065</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9896,7 +9896,7 @@
         <field name="code">9546</field>
         <field name="name">Anteil für Konto Vollhafter 0066</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9904,7 +9904,7 @@
         <field name="code">9547</field>
         <field name="name">Anteil für Konto Vollhafter 0067</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9912,7 +9912,7 @@
         <field name="code">9548</field>
         <field name="name">Anteil für Konto Vollhafter 0068</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9920,7 +9920,7 @@
         <field name="code">9549</field>
         <field name="name">Anteil für Konto Vollhafter 0069</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9928,7 +9928,7 @@
         <field name="code">9550</field>
         <field name="name">Anteil für Konto Teilhafter 2050</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9936,7 +9936,7 @@
         <field name="code">9551</field>
         <field name="name">Anteil für Konto Teilhafter 2051</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9944,7 +9944,7 @@
         <field name="code">9552</field>
         <field name="name">Anteil für Konto Teilhafter 2052</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9952,7 +9952,7 @@
         <field name="code">9553</field>
         <field name="name">Anteil für Konto Teilhafter 2053</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9960,7 +9960,7 @@
         <field name="code">9554</field>
         <field name="name">Anteil für Konto Teilhafter 2054</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9968,7 +9968,7 @@
         <field name="code">9555</field>
         <field name="name">Anteil für Konto Teilhafter 2055</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9976,7 +9976,7 @@
         <field name="code">9556</field>
         <field name="name">Anteil für Konto Teilhafter 2056</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9984,7 +9984,7 @@
         <field name="code">9557</field>
         <field name="name">Anteil für Konto Teilhafter 2057</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -9992,7 +9992,7 @@
         <field name="code">9558</field>
         <field name="name">Anteil für Konto Teilhafter 2058</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10000,7 +10000,7 @@
         <field name="code">9559</field>
         <field name="name">Anteil für Konto Teilhafter 2059</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10008,7 +10008,7 @@
         <field name="code">9560</field>
         <field name="name">Anteil für Konto Teilhafter 2060</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10016,7 +10016,7 @@
         <field name="code">9561</field>
         <field name="name">Anteil für Konto Teilhafter 2061</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10024,7 +10024,7 @@
         <field name="code">9562</field>
         <field name="name">Anteil für Konto Teilhafter 2062</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10032,7 +10032,7 @@
         <field name="code">9563</field>
         <field name="name">Anteil für Konto Teilhafter 2063</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10040,7 +10040,7 @@
         <field name="code">9564</field>
         <field name="name">Anteil für Konto Teilhafter 2064</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10048,7 +10048,7 @@
         <field name="code">9565</field>
         <field name="name">Anteil für Konto Teilhafter 2065</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10056,7 +10056,7 @@
         <field name="code">9566</field>
         <field name="name">Anteil für Konto Teilhafter 2066</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10064,7 +10064,7 @@
         <field name="code">9567</field>
         <field name="name">Anteil für Konto Teilhafter 2067</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10072,7 +10072,7 @@
         <field name="code">9568</field>
         <field name="name">Anteil für Konto Teilhafter 2068</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10080,7 +10080,7 @@
         <field name="code">9569</field>
         <field name="name">Anteil für Konto Teilhafter 2069</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10088,7 +10088,7 @@
         <field name="code">9570</field>
         <field name="name">Anteil für Konto Teilhafter 2070 </field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10096,7 +10096,7 @@
         <field name="code">9571</field>
         <field name="name">Anteil für Konto Teilhafter 2071</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10104,7 +10104,7 @@
         <field name="code">9572</field>
         <field name="name">Anteil für Konto Teilhafter 2072</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10112,7 +10112,7 @@
         <field name="code">9573</field>
         <field name="name">Anteil für Konto Teilhafter 2073</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10120,7 +10120,7 @@
         <field name="code">9574</field>
         <field name="name">Anteil für Konto Teilhafter 2074</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10128,7 +10128,7 @@
         <field name="code">9575</field>
         <field name="name">Anteil für Konto Teilhafter 2075</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10136,7 +10136,7 @@
         <field name="code">9576</field>
         <field name="name">Anteil für Konto Teilhafter 2076</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10144,7 +10144,7 @@
         <field name="code">9577</field>
         <field name="name">Anteil für Konto Teilhafter 2077</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10152,7 +10152,7 @@
         <field name="code">9578</field>
         <field name="name">Anteil für Konto Teilhafter 2078</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10160,7 +10160,7 @@
         <field name="code">9579</field>
         <field name="name">Anteil für Konto Teilhafter 2079</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10168,7 +10168,7 @@
         <field name="code">9580</field>
         <field name="name">Anteil für Konto Vollhafter 9820 </field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10176,7 +10176,7 @@
         <field name="code">9581</field>
         <field name="name">Anteil für Konto Vollhafter 9821</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10184,7 +10184,7 @@
         <field name="code">9582</field>
         <field name="name">Anteil für Konto Vollhafter 9822</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10192,7 +10192,7 @@
         <field name="code">9583</field>
         <field name="name">Anteil für Konto Vollhafter 9823</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10200,7 +10200,7 @@
         <field name="code">9584</field>
         <field name="name">Anteil für Konto Vollhafter 9824</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10208,7 +10208,7 @@
         <field name="code">9585</field>
         <field name="name">Anteil für Konto Vollhafter 9825</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10216,7 +10216,7 @@
         <field name="code">9586</field>
         <field name="name">Anteil für Konto Vollhafter 9826</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10224,7 +10224,7 @@
         <field name="code">9587</field>
         <field name="name">Anteil für Konto Vollhafter 9827</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10232,7 +10232,7 @@
         <field name="code">9588</field>
         <field name="name">Anteil für Konto Vollhafter 9828</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10240,7 +10240,7 @@
         <field name="code">9589</field>
         <field name="name">Anteil für Konto Vollhafter 9829</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10248,7 +10248,7 @@
         <field name="code">9590</field>
         <field name="name">Anteil für Konto Teilhafter 0080 </field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10256,7 +10256,7 @@
         <field name="code">9591</field>
         <field name="name">Anteil für Konto Teilhafter 0081</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10264,7 +10264,7 @@
         <field name="code">9592</field>
         <field name="name">Anteil für Konto Teilhafter 0082</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10272,7 +10272,7 @@
         <field name="code">9593</field>
         <field name="name">Anteil für Konto Teilhafter 0083</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10280,7 +10280,7 @@
         <field name="code">9594</field>
         <field name="name">Anteil für Konto Teilhafter 0084</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10288,7 +10288,7 @@
         <field name="code">9595</field>
         <field name="name">Anteil für Konto Teilhafter 0085</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10296,7 +10296,7 @@
         <field name="code">9596</field>
         <field name="name">Anteil für Konto Teilhafter 0086</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10304,7 +10304,7 @@
         <field name="code">9597</field>
         <field name="name">Anteil für Konto Teilhafter 0087</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10312,7 +10312,7 @@
         <field name="code">9598</field>
         <field name="name">Anteil für Konto Teilhafter 0088</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10320,7 +10320,7 @@
         <field name="code">9599</field>
         <field name="name">Anteil für Konto Teilhafter 0089</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10328,7 +10328,7 @@
         <field name="code">9600</field>
         <field name="name">Name des Gesellschafters Vollhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10336,7 +10336,7 @@
         <field name="code">9610</field>
         <field name="name">Tätigkeitsvergütung Vollhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10344,7 +10344,7 @@
         <field name="code">9620</field>
         <field name="name">Tantieme Vollhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10352,7 +10352,7 @@
         <field name="code">9630</field>
         <field name="name">Darlehensverzinsung Vollhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10360,7 +10360,7 @@
         <field name="code">9640</field>
         <field name="name">Gebrauchsüberlassung Vollhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10368,7 +10368,7 @@
         <field name="code">9650</field>
         <field name="name">Sonstige Vergütungen Vollhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10376,7 +10376,7 @@
         <field name="code">9690</field>
         <field name="name">Restanteil Vollhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10384,7 +10384,7 @@
         <field name="code">9700</field>
         <field name="name">Name des Gesellschafters Teillhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10392,7 +10392,7 @@
         <field name="code">9710</field>
         <field name="name">Tätigkeitsvergütung Teillhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10400,7 +10400,7 @@
         <field name="code">9720</field>
         <field name="name">Tantieme Teillhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10408,7 +10408,7 @@
         <field name="code">9730</field>
         <field name="name">Darlehensverzinsung Teillhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10416,7 +10416,7 @@
         <field name="code">9740</field>
         <field name="name">Gebrauchsüberlassung Teillhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10424,7 +10424,7 @@
         <field name="code">9750</field>
         <field name="name">Sonstige Vergütungen Teillhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10432,7 +10432,7 @@
         <field name="code">9780</field>
         <field name="name">Anteil für Konto 9840-49 Teilhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10440,7 +10440,7 @@
         <field name="code">9790</field>
         <field name="name">Restanteil Teillhafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10448,7 +10448,7 @@
         <field name="code">9800</field>
         <field name="name">Lösch- und Korrekturschlüssel</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10456,7 +10456,7 @@
         <field name="code">9801</field>
         <field name="name">Lösch- und Korrekturschlüssel</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10464,7 +10464,7 @@
         <field name="code">9810</field>
         <field name="name">Gesellschafter-Darlehen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10472,7 +10472,7 @@
         <field name="code">9820</field>
         <field name="name">Verlust-/ Vortragskonto</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10480,7 +10480,7 @@
         <field name="code">9830</field>
         <field name="name">Verrechnungskonto für Einzahlungsverpflichtungen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10488,7 +10488,7 @@
         <field name="code">9840</field>
         <field name="name">Gesellschafter-Darlehen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10496,7 +10496,7 @@
         <field name="code">9850</field>
         <field name="name">Verrechnungskonto für Einzahlungsverpflichtungen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10504,7 +10504,7 @@
         <field name="code">9860</field>
         <field name="name">Einzahlungsverpflichtungen persönlich haftender Gesellschafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10512,7 +10512,7 @@
         <field name="code">9870</field>
         <field name="name">Einzahlungsverpflichtungen Kommanditisten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10520,7 +10520,7 @@
         <field name="code">9880</field>
         <field name="name">Ausgleichsposten für aktivierte eigene Anteile </field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10528,7 +10528,7 @@
         <field name="code">9882</field>
         <field name="name">Ausgleichsposten für aktivierte Bilanzierungshilfen</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10536,7 +10536,7 @@
         <field name="code">9883</field>
         <field name="name">Nicht durch Vermögenseinlagen gedeckte Entnahmen persönlich haftender Gesellschafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10544,7 +10544,7 @@
         <field name="code">9884</field>
         <field name="name">Nicht durch Vermögenseinlagen gedeckte Entnahmen Kommanditisten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10552,7 +10552,7 @@
         <field name="code">9885</field>
         <field name="name">Verrechnungskonto für nicht durch Vermögenseinlagen gedeckte Entnahmen persönlich haftender Gesellschafter</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10560,7 +10560,7 @@
         <field name="code">9886</field>
         <field name="name">Verrechnungskonto für nicht durch Vermögenseinlagen gedeckte Entnahmen Kommanditisten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10568,7 +10568,7 @@
         <field name="code">9887</field>
         <field name="name">Steueraufwand der Gesellschafter </field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10576,7 +10576,7 @@
         <field name="code">9889</field>
         <field name="name">Gegenkonto zu 9887</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10584,7 +10584,7 @@
         <field name="code">9890</field>
         <field name="name">Statistische Konten für den Gewinnzuschlag nach §§ 6b- 6c und 7g EStG (Haben-Buchung)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10592,7 +10592,7 @@
         <field name="code">9891</field>
         <field name="name">Statistische Konten für den Gewinnzuschlag- Gegenkonto zu 9890</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10600,7 +10600,7 @@
         <field name="code">9893</field>
         <field name="name">Umsatzsteuer in den Forderungen zum allgemeinen Umsatzsteuersatz (EüR)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10608,7 +10608,7 @@
         <field name="code">9894</field>
         <field name="name">Umsatzsteuer in den Forderungen zum ermäßigten Umsatzsteuersatz (EüR)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10616,7 +10616,7 @@
         <field name="code">9895</field>
         <field name="name">Gegenkonto 9893-9894 für die Aufteilung der Umsatzsteuersatz (EüR)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10624,7 +10624,7 @@
         <field name="code">9896</field>
         <field name="name">Vorsteuer in den Verbindlichkeiten zum allgemeinen Umsatzsteuersatz (EüR)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10632,7 +10632,7 @@
         <field name="code">9897</field>
         <field name="name">Vorsteuer in den Verbindlichkeiten zum ermäßigten Umsatzsteuersatz (EüR)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10640,7 +10640,7 @@
         <field name="code">9899</field>
         <field name="name">Gegenkonto 9896-9897 für die Aufteilung der Vorsteuer (EüR)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10648,7 +10648,7 @@
         <field name="code">9900</field>
         <field name="name">SO Commitment</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10656,7 +10656,7 @@
         <field name="code">9910</field>
         <field name="name">Gegenkonto zur Minderung der Entnahmen §4 (4a) EStG</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10664,7 +10664,7 @@
         <field name="code">9911</field>
         <field name="name">Minderung der Entnahmen §4 (4a) EStG (Haben)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10672,7 +10672,7 @@
         <field name="code">9912</field>
         <field name="name">Erhöhung der Entnahmen §4 (4a) EStG</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10680,7 +10680,7 @@
         <field name="code">9913</field>
         <field name="name">Gegenkonto zur Erhöhung der Entnahmen §4 (4a) EStG (Haben)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10688,7 +10688,7 @@
         <field name="code">9918</field>
         <field name="name">Kinderbetreuungskosten (wie Betriebsausgaben steuerlich anzusetzender Betrag)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10696,7 +10696,7 @@
         <field name="code">9919</field>
         <field name="name">Gegenkonto zu 9918 (Haben)</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10704,7 +10704,7 @@
         <field name="code">9980</field>
         <field name="name">Anteil für Verbindlichkeitskonten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
@@ -10712,7 +10712,7 @@
         <field name="code">9981</field>
         <field name="name">Verrechnungskonto für Anteil Verbindlichkeitskonten</field>
         <field name="reconcile" eval="False"/>
-        <field name="user_type_id" ref="l10n_de.account_type_other"/>
+        <field name="user_type_id" ref="eq_syscoon.account_type_other"/>
         <field name="chart_template_id" ref="l10n_chart_de_skr04"/>
     </record>
 
