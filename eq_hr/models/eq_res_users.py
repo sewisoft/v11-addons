@@ -1,9 +1,27 @@
 # -*- coding: utf-8 -*-
-
+##############################################################################
+#
+#    Odoo Addon, Open Source Management Solution
+#    Copyright (C) 2017-now Equitania Software GmbH(<http://www.equitania.de>).
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##############################################################################
 from odoo import models, fields, api, _
 
 
-class EqHrResUsers(models.Model):
+class eq_hr_res_users(models.Model):
     _inherit = 'res.users'
 
     eq_employee_id = fields.Many2one('hr.employee', 'Employee', copy=False)
@@ -13,7 +31,7 @@ class EqHrResUsers(models.Model):
         context_new = {}
         if self._context:
             context_new = dict(self._context)
-        res = super(EqHrResUsers, self).create(values)
+        res = super(eq_hr_res_users, self).create(values)
         if 'eq_employee_id' in values and 'do_not_repeat' not in self._context:
             if values['eq_employee_id']:
                 emp_obj = self.env['hr.employee']
@@ -33,6 +51,10 @@ class EqHrResUsers(models.Model):
 
     @api.one
     def write(self, values):
+        """
+        :param values:
+        :return:
+        """
         context_new = {}
         if self._context:
             context_new = dict(self._context)
@@ -62,4 +84,4 @@ class EqHrResUsers(models.Model):
                 employees_to_clear = emp_obj.search([('user_id', '=', self.id)])
                 if employees_to_clear:
                     employees_to_clear.with_context(context_new).write({'user_id': False})
-        return super(EqHrResUsers, self).write(values)
+        return super(eq_hr_res_users, self).write(values)

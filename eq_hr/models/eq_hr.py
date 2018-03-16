@@ -1,19 +1,43 @@
 # -*- coding: utf-8 -*-
-
+##############################################################################
+#
+#    Odoo Addon, Open Source Management Solution
+#    Copyright (C) 2017-now Equitania Software GmbH(<http://www.equitania.de>).
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##############################################################################
 from odoo import models, api
 
 
-class EqHrEmployee(models.Model):
+class eq_hr_employee(models.Model):
     _inherit = 'hr.employee'
 
     @api.model
     def create(self, values):
+        """
+        Neuanlage eines Mitarbeiters
+        Gewählter Benutzer darf nur diesem Mitarbeiter zugewiesen sein und kein anderer Benutzer darf auf diesen Mitarbeiter verweisen
+        :param values:
+        :return:
+        """
         context_new = {}
         if self._context:
             context_new = dict(self._context)
         context_new['do_not_repeat'] = True
 
-        res = super(EqHrEmployee, self).create(values)
+        res = super(eq_hr_employee, self).create(values)
         if 'user_id' in values and 'do_not_repeat' not in self._context:
             if values['user_id']:
                 user_obj = self.env['res.users']
@@ -27,6 +51,10 @@ class EqHrEmployee(models.Model):
 
     @api.one
     def write(self, values):
+        """
+        :param values:
+        :return:
+        """
         context_new = {}
         if self._context:
             context_new = dict(self._context)
@@ -55,5 +83,5 @@ class EqHrEmployee(models.Model):
                 if user_ids_to_clear:
                     user_ids_to_clear.with_context(context_new).write({'eq_employee_id': False})
 
-        res = super(EqHrEmployee, self).write(values)
+        res = super(eq_hr_employee, self).write(values)
         return res
