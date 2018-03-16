@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="eq_view_sale_config_settings_product_no_generator" model="ir.ui.view">
+            <field name="name">eq_sale.config.address.product.settings.product.no.generator</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="sale.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//div[hasclass('app_settings_block')]/div" position="after">
+                        <h2>Product Number Generator</h2>
+                        <div class="row mt16 o_settings_container">
+                            <div class="col-xs-12 col-md-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <label for="default_eq_min_prefix_count"/>
+                                    <field name="default_eq_min_prefix_count" class="oe_inline"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label for="default_eq_max_prefix_count"/>
+                                    <field name="default_eq_max_prefix_count" class="oe_inline"/>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <label for="default_eq_prod_num_lenght"/>
+                                    <field name="default_eq_prod_num_lenght" class="oe_inline"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label for="default_eq_seperator"/>
+                                    <field name="default_eq_seperator" class="oe_inline"/>
+                                </div>
+                            </div>
+                        </div>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+
+    </data>
+</odoo>

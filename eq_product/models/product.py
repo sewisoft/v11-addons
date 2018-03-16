@@ -1,5 +1,23 @@
 # -*- coding: utf-8 -*-
-
+##############################################################################
+#
+#    Odoo Addon, Open Source Management Solution
+#    Copyright (C) 2017-now Equitania Software GmbH(<http://www.equitania.de>).
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##############################################################################
 from odoo import models, fields, api, _
 from odoo.addons import decimal_precision as dp
 
@@ -81,6 +99,23 @@ class EqProductTemplate(models.Model):
 
         return res
 
+    def _generate_ean(self, prod_variant, company_ean, sequence):
+        ean_without_checksum = company_ean + sequence[-5:]
+
+        oddsum = 0
+        evensum = 0
+        for i in range(0, len(ean_without_checksum)):
+            if i % 2 == 0:
+                oddsum += int(ean_without_checksum[i])
+            else:
+                evensum += int(ean_without_checksum[i])
+        total = oddsum + (evensum * 3)
+        checksum = int(10 - total % 10.0) % 10
+        if checksum == 10:
+            checksum == 0
+        ean13 = ean_without_checksum + str(checksum)
+        prod_variant.write({'ean13': ean13})
+
 
 class EqProductTemplateStandardPriceHistory(models.Model):
     _name = 'product.template.standard_price_history'
@@ -97,3 +132,34 @@ class EqProductTemplateStandardPriceHistory(models.Model):
         for rec in self:
             res.append((rec.id, _('Change ') + self.create_date))
         return res
+
+
+class eq_sale_config_product(models.TransientModel):
+    _inherit = 'res.config.settings'
+
+    default_eq_min_prefix_count = fields.Integer('Min prefix lenght [equitania]')
+    default_eq_max_prefix_count = fields.Integer('Max prefix lenght [equitania]')
+    default_eq_prod_num_lenght = fields.Integer('Product number lenght [equitania]')
+    default_eq_seperator = fields.Char('Seperator [equitania]')
+
+    @api.model
+    def get_values(self):
+        res = super(eq_sale_config_product, self).get_values()
+        ICPSudo = self.env['ir.config_parameter'].sudo()
+        res.update(
+            default_eq_min_prefix_count=ICPSudo.get_param('eq_product.default_eq_min_prefix_count'),
+            default_eq_max_prefix_count=ICPSudo.get_param('eq_product.default_eq_max_prefix_count'),
+            default_eq_prod_num_lenght=ICPSudo.get_param('eq_product.default_eq_prod_num_lenght'),
+            default_eq_seperator=ICPSudo.get_param('eq_product.default_eq_seperator'),
+        )
+        return res
+
+    @api.multi
+    def set_values(self):
+        super(eq_sale_config_product, self).set_values()
+        ICPSudo = self.env['ir.config_parameter'].sudo()
+        ICPSudo.set_param("eq_product.default_eq_min_prefix_count", self.default_eq_min_prefix_count)
+        ICPSudo.set_param("eq_product.default_eq_max_prefix_count", self.default_eq_max_prefix_count)
+        ICPSudo.set_param("eq_product.default_eq_prod_num_lenght", self.default_eq_prod_num_lenght)
+        ICPSudo.set_param("eq_product.default_eq_seperator", self.default_eq_seperator)
+
