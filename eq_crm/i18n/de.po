@@ -93,6 +93,11 @@ msgid "Title"
 msgstr "Geschäftsführer oder Inhaber:"
 
 #. module: eq_crm
+#: model:ir.model.fields,field_description:eq_crm.field_crm_lead_website
+msgid "Website"
+msgstr "Webseite"
+
+#. module: eq_crm
 #: model:ir.ui.view,arch_db:eq_crm.eq_crm_case_form_view_oppor_ext
 #: model:ir.ui.view,arch_db:eq_crm.eq_crm_lead_form_ext
 msgid "ZIP"

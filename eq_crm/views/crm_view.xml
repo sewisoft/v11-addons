@@ -7,21 +7,18 @@
 			<field name="model">crm.lead</field>
 			<field name="inherit_id" ref="crm.crm_case_form_view_leads" />
 			<field name="arch" type="xml">
-                <xpath expr="//group/group[2]" position="replace">
-                    <group>
-                        <label for="contact_name"/>
-                        <field name="title" placeholder="Title" />
+				<field name="title" position="replace" />
+				<field name="contact_name" position="attributes" >
+					<attribute name="invisible">1</attribute>
+				</field>
+				<field name="email_from" position="before">
+					<group colspan="2">
+						<field name="title" placeholder="Title" />
 						<field name="firstname" placeholder="Firstname" />
 						<field name="lastname" placeholder="Lastname" />
-                        <separator/>
 						<field name="birthdate" />
-                        <field name="email_from" widget="email"/>
-                        <field name="function"/>
-                        <field name="phone" widget="phone"/>
-                        <field name="mobile"/>
-                    </group>
-                </xpath>
-
+					</group>
+				</field>
 				<field name="street" position="replace">
 					<field name="street" style="width: 80%%" placeholder="Street..." />
 					<field name="eq_house_no" style="width: 20%%" placeholder="House no" />
@@ -35,7 +32,6 @@
 						<field name="eq_citypart" style="width: 28%%" placeholder="District" />
 					</div>
 				</field>
-
 				<field name="country_id" position="replace" >
 					<div>
 					    <field name="country_id" placeholder="Country" style="width: 50%%"
@@ -77,17 +73,14 @@
 							style="width: 50%%" options='{"no_open": True}'  />
 					</div>
 				</field>
-                <xpath expr="//page[@name='lead']/group/group[2]" position="replace">
-                    <group>
-                        <field name="title" placeholder="Title" />
-                        <field name="firstname" placeholder="Firstname" />
-                        <field name="lastname" placeholder="Lastname" />
-                        <field name="birthdate" />
-                        <field name="function"/>
-                        <field name="mobile"/>
-                        <field name="opt_out"/>
-                    </group>
-                </xpath>
+				<field name="contact_name" position="replace" />
+				<field name="title" position="replace" />
+				<field name="function" position="before">
+					<field name="title" placeholder="Title" />
+					<field name="firstname" placeholder="Firstname" />
+					<field name="lastname" placeholder="Lastname" />
+					<field name="birthdate" />
+				</field>
 			</field>
 		</record>
 	</data>
