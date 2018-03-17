@@ -238,6 +238,11 @@ msgid "Show the Planned Date on the Purchase Order [eq_purchase]"
 msgstr "Das geplante Datum in der Bestellung anzeigen [eq_purchase]"
 
 #. module: eq_purchase
+#: model:ir.model.fields,field_description:eq_purchase.field_purchase_config_settings_default_use_calendar_week
+msgid "Show Calendar Week for Planned Date [eq_purchase]"
+msgstr "Das geplante Datum als Kalenderwoche anzeigen [eq_purchase]"
+
+#. module: eq_purchase
 #: model:ir.ui.view,arch_db:eq_purchase.eq_purchase_view_partner_tree
 msgid "Supplier Number"
 msgstr "Lieferantennummer"
@@ -247,6 +252,11 @@ msgstr "Lieferantennummer"
 #: model:ir.model.fields,help:eq_purchase.field_res_config_settings_default_show_planned_date
 msgid "The planned date will be shown in the Purchase Order"
 msgstr "Das geplante Datum wird in der Bestellung angezeigt."
+
+#. module: eq_purchase
+#: model:ir.model.fields,help:eq_purchase.field_purchase_config_settings_default_use_calendar_week
+msgid "The planned date will be shown as a calendar week"
+msgstr "Das geplante Datum wird als Kalenderwoche angezeigt."
 
 #. module: eq_purchase
 #: model:ir.model.fields,field_description:eq_purchase.field_purchase_order_use_calendar_week
@@ -268,3 +278,26 @@ msgstr "eq_install_func"
 msgid "res.config.settings"
 msgstr "res.config.settings"
 
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "Planned date:"
+msgstr "Geplantes Datum:"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "Planned date: CW"
+msgstr "Geplantes Datum: KW"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Supplier no.</span>"
+msgstr "<span>Lieferantennr.</span>"
+
+#. module: eq_purchase
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchaseorder_document
+#: model:ir.ui.view,arch_db:eq_purchase.eq_report_purchasequotation_document
+msgid "<span>Order no.</span>"
+msgstr "<span>Auftragsnummer</span>"
