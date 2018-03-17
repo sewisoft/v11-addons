@@ -68,7 +68,7 @@ msgstr "E-Mail (zusätzlich)"
 #: model:ir.model.fields,field_description:eq_res_partner.field_res_partner_eq_deb_cred_number
 #: model:ir.model.fields,field_description:eq_res_partner.field_res_users_eq_deb_cred_number
 msgid "Eq Deb Cred Number"
-msgstr "Eq Deb Cred Number"
+msgstr "Kundennr. / Lieferantennr."
 
 #. module: eq_res_partner
 #: model:ir.model.fields,field_description:eq_res_partner.field_res_partner_eq_firstname
@@ -88,6 +88,11 @@ msgstr "Fremdnr. Kunde"
 #: model:ir.model.fields,field_description:eq_res_partner.field_res_users_eq_foreign_ref_purchase
 msgid "Foreign reference purchase"
 msgstr "Fremdnr. Lieferant"
+
+#. module: eq_res_partner
+#: model:ir.model,name:eq_res_partner.model_res_partner
+msgid "Partner"
+msgstr "Partner"
 
 #. module: eq_res_partner
 #: model:ir.ui.view,arch_db:eq_res_partner.eq_partner_extension_form_view
