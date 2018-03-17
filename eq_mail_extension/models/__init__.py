@@ -23,3 +23,5 @@ from . import eq_mail_extension
 from . import eq_mail_config
 from . import eq_base_config_settings
 from . import eq_email_template
+from . import eq_email_template_new
+
