@@ -20,9 +20,9 @@
 ##############################################################################
 
 {
-    'name': 'Equitania Web Responsive',
+    'name': 'Equitania Responsive Interface',
     'license': 'AGPL-3',
-    'version': '11.0.1.0.0',
+    'version': '1.0.8',
     'description': """
         Anpassung für das Backend Theme web_responsive
     """,

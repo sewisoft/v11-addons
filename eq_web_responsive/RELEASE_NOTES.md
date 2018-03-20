@@ -1,5 +1,9 @@
 ## Modul eq_web_responsive
 
+#### 20.03.2018
+#### Version 1.0.8
+##### CHG
+- Updated module according to the version '1.0.10' from V10.
 
 #### 11.08.2017
 #### Version 1.0.7
