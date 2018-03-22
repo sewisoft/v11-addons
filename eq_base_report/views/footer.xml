@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="eq_external_layout_footer">
+        <div class="footer">
+	        <table class="header" style="border-bottom: 1px solid #999999; width: 100%;">
+	            <tr>
+	                <td style="text-align:right;font-size:8pt; font-weight:bold;">
+						<span>Page:</span> <span class="page"/><span> / </span><span class="topage"/>
+	                </td>
+	            </tr>
+	        </table>
+	        <table class="footer" style="width: 100%;">
+	            <tr>
+	                <td style="">
+	                    <span t-field="company.name"/><br/>
+	                    <h t-field="company.street"/><!--<span t-if="company.eq_house_no"> <span t-field="company.eq_house_no"/></span>--><br/>
+						<div t-if="company.street2" >
+							<div t-field="company.street2"/>
+						</div>
+						<div><span t-field="company.zip"/> <span t-field="company.city"/></div>
+	                </td>
+	                <td style="">
+	                    <span t-field="company.email"/>
+	                    <div t-if="company.phone">
+	                        Phone: <span t-field="company.phone"/>
+	                    </div>
+	                    <span t-if="company.fax"> Fax: <span t-field="company.fax"/> </span>
+	                </td>
+	                <td style="">
+	                    <span t-field="company.website"/><br/>
+	                    <div t-if="company.vat">
+	                        VAT <!--USt-IdNr.--> <span t-field="company.vat"/><br/>
+	                    </div>
+	                    <span t-field="company.company_registry"/>
+	                </td>
+	                <td style="">
+                        <!--<span>CEO:</span> <br/>-->
+						<span t-field="company.eq_ceo_title" t-if="company.eq_ceo_title"/><br/>
+						<span t-field="company.eq_ceo_01" t-if="company.eq_ceo_01"/><br/>
+						<span t-field="company.eq_ceo_02" t-if="company.eq_ceo_02"/><br/>
+						<span t-field="company.eq_ceo_03" t-if="company.eq_ceo_03"/>
+                        <!--<span t-esc="ceo"/>-->
+	                    <!--<span t-field="company.eq_custom_1"/><br/>
+	                    <span t-field="company.eq_custom_2"/><br/>
+	                    <span t-field="company.eq_custom_3"/><br/>
+	                    <span t-if="company.eq_custom_4"><span t-field="company.eq_custom_4"/></span>-->
+
+	                </td>
+	                <!--<td t-foreach="company.bank_ids" t-as="bank">-->
+                    <td>
+	                    <!--<div t-if="bank.footer">-->
+						<!--<span>Bank:</span> <span t-field="bank_acc.name"/><br/>-->
+		                    <!--<span>BIC:</span> <span t-esc="bank_acc.bic"/><br/>
+	                        <span>IBAN:</span> <span t-esc="bank_acc.acc_number"/>-->
+	                        <!--<span>Bank:</span> <span t-esc="bank_name"/><br/>
+		                    <span t-esc="bank_bic"/><br/>
+	                        <span t-esc="bank_iban"/>-->
+	                	<!--</div>-->
+
+						<t t-foreach="company.bank_journal_ids" t-as="journal">
+							<t t-set="bank_acc" t-value="journal.bank_account_id"/>
+							<t t-if="journal.display_on_footer">
+								Bank: <span t-esc="bank_acc.bank_name"/><br/><t t-if="bank_acc.bank_bic">BIC: <span t-esc="bank_acc.bank_bic"/><br/></t>IBAN: <span t-esc="bank_acc.acc_number"/><br/>
+							</t>
+						</t>
+	                </td>
+	            </tr>
+	        </table>
+	    </div>
+
+    </template>
+
+
+
+<!-- overrides the basic rendering of the standard report footers which are still in use by other report templates, such as website quotations -->
+<template id="eq_odoostandard_layout_footer_replace" inherit_id="web.external_layout">
+
+    <xpath expr="//t[@t-call='web.external_layout_boxed']" position="replace">
+		<t t-call="eq_base_report.eq_external_layout_footer" />
+	</xpath>
+
+</template>
+
+
+
+</odoo>

@@ -2,7 +2,7 @@
 {
     'name': 'EQ Report Basis',
     'license': 'AGPL-3',
-    'version': '11.0.3.0.0',
+    'version': '1.0.3',
     'description': """
         Allgemeine Anpassungen für die Equitania Reports
     """,
@@ -12,9 +12,13 @@
     'category': 'Report',
     'summary': 'Reports',
     'data': [
+        'views/header.xml',
+        'views/footer.xml',
+        'views/paper_format.xml',
         'views/report_external_layout.xml',
-        'views/external_equitania_layout.xml',
-        'eq_res_config_view.xml',
+        'views/report_internal_layout.xml',
+        'views/report_style.xml',
+        'views/eq_res_config_view.xml',
     ],
     'demo': [],
     'installable': True,

@@ -141,6 +141,7 @@ class EqReportHelper(models.TransientModel):
         if len(decimal_part) > 0:
             finalResult += decimal_part
 
+        finalResult = finalResult.replace('-.','-')
         return finalResult
 
     def get_sum_without_optional_positions(self, category_positions):

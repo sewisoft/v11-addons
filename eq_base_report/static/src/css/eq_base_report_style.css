@@ -1,0 +1,160 @@
+/* Änderung der Schriftgrö0en von PT zu PX um auf den Servern die Größe zu korrigieren
+ Dies ist notwendig für die WKTHMLTOPDF Version 0.12.2.1 */
+
+body {
+    color: #000 !important;
+	font-size: 11px!important;
+    font-family: "Open Sans", Calibri,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {font-size: 24px;}
+h2 {font-size: 20px;}
+h3 {font-size: 18px;}
+h4 {font-size: 15px;}
+h5 {font-size: 13px;}
+
+td {
+	vertical-align:top;
+	font-size: 11px!important;
+}
+
+.border-black td {
+	border-top: 1px solid black !important;
+}
+
+.table-condensed > thead > tr > th {
+	border-bottom: 1px solid black !important;
+	page-break-inside:avoid !important;
+	font-size: 11px!important;
+											/*font-size: 0.8em;*/
+}
+
+.zero_min_height {
+	min-height: 0px
+	!important;
+}
+
+.padding-fix {
+	padding-left:15px; padding-right:15px;
+}
+
+/* Hier die zusätzlichen Abstände für den Druck einstellen */
+.page {
+	padding-left:1cm;
+	padding-right:0cm;
+}
+
+.footer {
+	clear:both;
+	align:center;
+	text-align:center;
+	margin-left:0px;
+	font-size:10px!important;
+}
+
+.footer td {
+	margin:0;
+	padding:0;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:left;
+	border: none;
+	background-color:none;
+	font-size:8px!important;
+}
+
+#version {
+	margin:0 0 0 -15px;
+	padding:0;
+	display: none;
+	font-size:4px;
+	background-color:none;
+	transform: rotate(-90deg);
+	-webkit-transform:rotate(-90deg); /* Opera, Chrome, and Safari */
+}
+
+#logo img {
+	max-width:6.7cm;
+	max-height:7cm;
+	float:right;
+	margin-right:0px;
+	padding-right:0px;
+}
+
+.addressmargin {
+	margin-top:2.5cm;
+	height: 4.8cm;
+}
+
+#address {
+	margin-top: 2em;
+	min-height: 200px;
+	vertical-align: bottom;
+	position: relative;
+}
+
+.leftbox {
+	width: 50%;
+}
+div.header .leftbox {
+	margin-left:1.4cm;
+	margin-top: 0.8cm;
+	float:left;
+}
+
+/* Tabellenformatierung für 1. Spalte dicker Inhalt */
+table.data > tbody > tr > td:first-child {
+	font-weight:bold;
+	padding-right:0.4cm;
+}
+
+
+.rightbox {
+	float:right;
+	padding-left:0px;
+}
+
+#returnaddress {
+	color:
+	#000000;
+	font-size: 9px!important;
+	border-bottom: 1px solid #000000;
+	padding-top:1cm;
+	margin-bottom:0.6em;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+#logo {
+	margin-top: 0em;
+	margin-bottom: 0px;
+	margin-right:0px;
+}
+
+.bottomBlock {
+	margin-top: 1em;
+}
+
+.table-row tbody tr:nth-child(odd) {
+	background-color: #ffffff!important; /* Alter Wert für graue Zeile: #eeeeee */
+}
+
+.table-row tbody tr:nth-child(even) {
+	background-color: #ffffff!important;
+}
+
+.table-row tbody tr {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+/* HTML formatierte Texte im Kopf und Fußtext */
+.eq_headertext ul, .eq_footertext ul {
+	padding-left:3em!important;
+}
+
+.table > tbody > tr.active > td {
+	background-color:#ddd; /*alter wert: #ddd */
+	color:#000;
+}
+
