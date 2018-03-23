@@ -69,9 +69,10 @@ class EqSqlExec(models.Model):
             return False
 
         # now check for forbidden words
-        statement = statement.upper()
+        # statement = statement.upper()
+        test_statement = statement.upper()
         for word in self._forbidden_words:
-            index_check = statement.find(word);
+            index_check = test_statement.find(word);
             if index_check > -1:
                 print ("Sql statement contains forbidden word !")
                 return False

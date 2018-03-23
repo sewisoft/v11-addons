@@ -21,7 +21,7 @@
 
 {
     'name': 'Equitania SQL Exec',
-    'version': '11.0.1.0.0',
+    'version': '1.0.12',
     'license': 'AGPL-3',
     'description': """
         Small SQL helper
@@ -33,7 +33,7 @@
     'summary': 'EqSqlExec',    
     'data': [         
              'security/ir.model.access.csv',  
-             'eq_sql_exec_view.xml',
+             'views/eq_sql_exec_view.xml',
     ],
     'demo': [],
     'installable': True,

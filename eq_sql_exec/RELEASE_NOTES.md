@@ -1,5 +1,9 @@
 ## Modul eq_sql_exec
 
+### 23.03.2018
+### Version 1.0.12
+#### CHG
+- Updated module according to the version '1.0.12' from V10.
 
 ### 31.07.2017
 ### Version 1.0.11
