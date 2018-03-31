@@ -21,7 +21,7 @@
 {
     'name': "Equitania Kontakt Optimierungen",
     'license': 'AGPL-3',
-    'version': '1.0.1',
+    'version': '1.0.2',
     'category': 'Partner',
     'description': """Extensions for res_partner""",
     'author': 'Equitania Software GmbH',
@@ -30,6 +30,7 @@
     "depends": ['base', 'base_setup', 'pragma_supplier_number', 'pragma_customer_number'],
     'data': [
             "views/eq_res_partner_view.xml",
+            "views/eq_res_partner_mails.xml",
              ],
     "installable": True
 }

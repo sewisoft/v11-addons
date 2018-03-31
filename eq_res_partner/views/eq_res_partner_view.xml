@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+       
         <record model="ir.ui.view" id="eq_res_partner_partner_kanban_view">
             <field name="name">eq_res.partner.kanban.datev.inherit</field>
             <field name="model">res.partner</field>
@@ -15,30 +16,6 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="eq_res_partner_partner_kanban_view">
-            <field name="name">eq_res.partner.kanban.datev.inherit</field>
-            <field name="model">res.partner</field>
-            <field name="inherit_id" ref="base.res_partner_kanban_view"/>
-            <field name="priority" eval="20"/>
-            <field name="arch" type="xml">
-                <xpath expr="//li[@t-if='record.email.raw_value']" position="after">
-					<li t-if="record.eq_deb_cred_number.raw_value">
-						<field name="eq_deb_cred_number"/>
-					</li>
-                </xpath>
-            </field>
-        </record>
-
-        <record model="ir.ui.view" id="view_customer_no_form">
-            <field name="name">pragma_customer_number.view_partner_form</field>
-            <field name="model">res.partner</field>
-            <field name="inherit_id" ref="pragma_customer_number.view_partner_form"/>
-            <field name="arch" type="xml">
-                <field name="customer_number" position="attributes">
-                    <attribute name="invisible">1</attribute>
-                </field>
-            </field>
-        </record>
 
         <record model="ir.ui.view" id="view_supplier_no_form">
             <field name="name">pragma_customer_number.view_partner_form</field>

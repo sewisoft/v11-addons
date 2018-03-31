@@ -19,3 +19,5 @@
 #
 ##############################################################################
 from . import eq_res_partner
+from . import eq_res_partner_mails
+
