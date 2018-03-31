@@ -44,6 +44,11 @@ msgid "Customer No"
 msgstr "KD-Nr."
 
 #. module: eq_sale_stock
+#: model:ir.model.fields,field_description:eq_sale_stock.field_sale_order_line_eq_delivery_date
+msgid "Delivery Date"
+msgstr "Lieferavis"
+
+#. module: eq_sale_stock
 #: model:ir.model.fields,field_description:eq_sale_stock.field_eq_open_sale_order_line_eq_delivery_date
 msgid "Delivery date"
 msgstr "Lieferdatum"
@@ -149,6 +154,11 @@ msgid "Saleorder"
 msgstr "Verkaufsauftrag"
 
 #. module: eq_sale_stock
+#: model:ir.model,name:eq_sale_stock.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Auftragsposition"
+
+#. module: eq_sale_stock
 #: model:ir.ui.view,arch_db:eq_sale_stock.eq_open_sale_order_line_search_view
 msgid "Search Partner"
 msgstr "Partner suchen"
@@ -182,4 +192,25 @@ msgstr "Lieferung vornehmen"
 #: model:ir.model,name:eq_sale_stock.model_eq_open_sale_order_line
 msgid "eq_open_sale_order_line"
 msgstr "eq_open_sale_order_line"
+
+#. module: eq_sale_stock
+#: model:ir.ui.view,arch_db:eq_sale_stock.eq_stock_view_doc_template_ext
+msgid "Header Text"
+msgstr "Kopftext"
+
+
+#. module: eq_sale_stock
+#: model:ir.ui.view,arch_db:eq_sale_stock.eq_stock_view_doc_template_ext
+msgid "Header text"
+msgstr "Kopftext"
+
+#. module: eq_sale_stock
+#: model:ir.ui.view,arch_db:eq_sale_stock.eq_stock_view_doc_template_ext
+msgid "Footer Text"
+msgstr "Fußtext"
+
+#. module: eq_sale_stock
+#: model:ir.model.fields,field_description:eq_sale_stock.field_eq_open_sale_order_line_eq_drawing_no
+msgid "Drawing number"
+msgstr "Zeichnungsnummer"
 
