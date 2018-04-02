@@ -7,3 +7,4 @@ from . import sale
 from . import sale_layout
 from . import eq_report_sale_order
 from . import eq_email_template_new
+from . import eq_sale_make_invoice_advance

@@ -709,3 +709,12 @@ msgstr "res.config.settings"
 msgid "sale.layout_category"
 msgstr "sale.layout_category"
 
+#. module: eq_sale
+#: model:ir.ui.view,arch_db:eq_sale.eq_report_saleorder_document
+msgid "Delivery date: CW"
+msgstr "Lieferdatum: KW"
+
+#. module: eq_sale
+#: model:ir.model.fields,field_description:eq_sale.field_sale_order_eq_show_preview_button
+msgid "Show Preview Button"
+msgstr "Vorschau Button anzeigen"

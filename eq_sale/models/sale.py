@@ -11,11 +11,23 @@ class EqSaleOrderExtension(models.Model):
     eq_delivery_condition_id = fields.Many2one('eq.delivery.conditions', 'Delivery Condition')
     eq_use_page_break_after_header = fields.Boolean(string='Page break after header text')
     eq_use_page_break_before_footer = fields.Boolean(string='Page break before footer text')
+    eq_use_page_break_after_header = fields.Boolean(string='Page break after header text')
+    eq_use_page_break_before_footer = fields.Boolean(string='Page break before footer text')
 
     default_show_address = fields.Boolean(string='Show street and city in the partner search of the Sale and Purchase '
                                                  'Order [eq_sale]')
     default_search_only_company = fields.Boolean(string='Only Search for Companies [eq_sale]')
     eq_show_preview_button = fields.Boolean(string="Show Preview-Button in Sale Order [eq_sale]")
+
+    @api.model
+    def create(self,vals):
+        if 'eq_show_preview_button' not in vals:
+            ir_values_obj = self.env['ir.values']
+            show_preview = ir_values_obj.get_default('sale.order','eq_show_preview_button')
+            vals['eq_show_preview_button'] = show_preview
+
+        result = super(EqSaleOrderExtension, self).create(vals)
+        return result
 
     @api.multi
     def action_quotation_send(self):
@@ -513,4 +525,4 @@ class EqSaleOrderLine(models.Model):
     get_delivery_date = fields.Char(compute="_get_delivery_date", string="Delivery", methode=True, store=False)
     eq_use_internal_description = fields.Boolean('Use internal description for sale orders')
     eq_optional = fields.Boolean(string="Optional")
-
+    name = fields.Text(string='Description', required=True, translate = True)

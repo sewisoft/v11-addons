@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import datetime
 from odoo import api, models
 
 
@@ -97,3 +97,44 @@ class ReportSaleOrderLine(models.Model):
         :return:
         """
         return self.env["eq_report_helper"].get_qty(value, language, 'Sale Unit of Measure Report [eq_sale]')
+
+    def get_delivery_date_flag(self):
+        """
+        Anzeige Lieferdatum auf Basis der Checkbox 'Liefertermin auf Angebot und Auftragsbestätigung anzeigen [eq_sale]' in der Konfiguration
+        :param value:
+        :param language:
+        :return:
+        """
+        ir_values_obj = self.env['ir.values']
+        show_delivery_date = ir_values_obj.get_default('sale.order', 'show_delivery_date')
+        return show_delivery_date
+
+    def get_delivery_date_kw_flag(self):
+        """
+        Anzeige Lieferdatum auf Basis der Checkbox 'Liefertermin als Kalenderwoche anzeigen [eq_sale] ' in der Konfiguration
+        :param value:
+        :param language:
+        :return:
+        """
+        ir_values_obj = self.env['ir.values']
+        show_calendar_week = ir_values_obj.get_default('sale.order', 'use_calendar_week')
+        return show_calendar_week
+
+    def get_delivery_date_kw(self, delivery_date):
+        """
+        Anzeige Lieferdatum als KW
+        :param value:
+        :param language:
+        :return:
+        """
+        if delivery_date != False:
+            new_date = delivery_date.split(' ')
+            date = datetime.datetime.strptime(new_date[0], "%Y-%m-%d")
+            year = date.year
+            month = date.month
+            day = date.day
+            d = datetime.date(year, month, day)
+            kw = d.isocalendar()[1]
+            kw = str(kw)
+
+            return kw
