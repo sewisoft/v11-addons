@@ -110,8 +110,8 @@ class ReportPurchaseOrderLine(models.Model):
         :param language:
         :return:
         """
-        ir_values_obj = self.env['ir.values']
-        show_delivery_date = ir_values_obj.get_default('purchase.order', 'show_planned_date')
+        ir_values_obj = self.env['ir.config_parameter']
+        show_delivery_date = ir_values_obj.sudo().get_param('eq_purchase.show_planned_date')
         return show_delivery_date
 
     def get_delivery_date_kw_flag(self):
@@ -121,8 +121,8 @@ class ReportPurchaseOrderLine(models.Model):
         :param language:
         :return:
         """
-        ir_values_obj = self.env['ir.values']
-        show_calendar_week = ir_values_obj.get_default('purchase.order', 'use_calendar_week')
+        ir_values_obj = self.env['ir.config_parameter']
+        show_calendar_week = ir_values_obj.sudo().get_param('eq_purchase.use_calendar_week')
         return show_calendar_week
 
     def get_delivery_date_kw(self, delivery_date):

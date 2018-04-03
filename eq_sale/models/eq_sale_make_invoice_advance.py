@@ -41,8 +41,6 @@ class eqSaleAdvancePaymentInv(models.TransientModel):
             if not self.product_id:
                 vals = self._prepare_deposit_product()
                 self.product_id = self.env['product.product'].create(vals)
-                self.env['ir.values'].sudo().set_default('sale.config.settings', 'deposit_product_id_setting', self.product_id.id)
-
             sale_line_obj = self.env['sale.order.line']
             taxes = self.env['sale.order.line']
             tax_list = []

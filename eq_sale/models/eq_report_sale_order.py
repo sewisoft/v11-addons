@@ -105,8 +105,8 @@ class ReportSaleOrderLine(models.Model):
         :param language:
         :return:
         """
-        ir_values_obj = self.env['ir.values']
-        show_delivery_date = ir_values_obj.get_default('sale.order', 'show_delivery_date')
+        ir_values_obj = self.env['ir.config_parameter']
+        show_delivery_date = ir_values_obj.sudo().get_param('sale.show_delivery_date')
         return show_delivery_date
 
     def get_delivery_date_kw_flag(self):
@@ -116,8 +116,8 @@ class ReportSaleOrderLine(models.Model):
         :param language:
         :return:
         """
-        ir_values_obj = self.env['ir.values']
-        show_calendar_week = ir_values_obj.get_default('sale.order', 'use_calendar_week')
+        ir_values_obj = self.env['ir.config_parameter']
+        show_calendar_week = ir_values_obj.sudo().get_param('eq_sale.use_calendar_week')
         return show_calendar_week
 
     def get_delivery_date_kw(self, delivery_date):

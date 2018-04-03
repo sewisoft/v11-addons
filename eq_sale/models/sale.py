@@ -22,8 +22,8 @@ class EqSaleOrderExtension(models.Model):
     @api.model
     def create(self,vals):
         if 'eq_show_preview_button' not in vals:
-            ir_values_obj = self.env['ir.values']
-            show_preview = ir_values_obj.get_default('sale.order','eq_show_preview_button')
+            ir_values_obj = self.env['ir.config_parameter']
+            show_preview = ir_values_obj.sudo().get_param('eq_sale.eq_show_preview_button')
             vals['eq_show_preview_button'] = show_preview
 
         result = super(EqSaleOrderExtension, self).create(vals)
