@@ -1,6 +1,12 @@
 ## Modul eq_res_partner
 
 #### 03.04.2018
+#### Version 1.0.4
+##### FIX
+- dependencies delete to pragma-modules
+
+
+#### 03.04.2018
 #### Version 1.0.3
 ##### FIX
 - performance issue in res.partner is now resolved
