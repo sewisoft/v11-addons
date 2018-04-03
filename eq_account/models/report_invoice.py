@@ -49,6 +49,16 @@ class ReportAccountInvoice(models.Model):
         return value != ''
 
 
+class StockMove(models.Model):
+    _inherit = 'stock.move'
+
+    sale_line_id = fields.Many2one(
+            string='Sale Order Line',
+            readonly=True,
+            ondelete='set null'
+    )
+
+
 class SaleOrderLine(models.Model):
     _inherit = 'sale.order.line'
 
@@ -67,6 +77,18 @@ class ReportAccountInvoiceLine(models.Model):
     eq_move_ids = fields.Many2many('stock.move', string="Move") #Notwendig bei Teillieferungen
     eq_move_id = fields.Many2one('stock.move', string="Move")   #Funktioniert, nur nicht bei Teillieferungen
 
+
+    @api.multi
+    def get_subtotal(self, price_per_unit, qty):
+        """
+        Berechnung des Preis pro Zeile
+        :param price_per_unit:
+        :param qty:
+        :return:
+        """
+        price = price_per_unit * qty
+        return price
+    
     @api.multi
     def get_price(self, value, currency_id, language):
         """
