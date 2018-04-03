@@ -1,5 +1,11 @@
 ## Modul eq_res_partner
 
+#### 03.04.2018
+#### Version 1.0.3
+##### FIX
+- performance issue in res.partner is now resolved
+
+
 #### 31.03.2018
 #### Version 1.0.2
 ##### CHG
