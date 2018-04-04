@@ -16,19 +16,6 @@
             </field>
         </record>
 
-
-        <record model="ir.ui.view" id="view_supplier_no_form">
-            <field name="name">pragma_customer_number.view_partner_form</field>
-            <field name="model">res.partner</field>
-            <field name="inherit_id" ref="pragma_supplier_number.view_partner_form"/>
-            <field name="arch" type="xml">
-                <field name="supplier_number" position="attributes">
-                    <attribute name="invisible">1</attribute>
-                </field>
-            </field>
-        </record>
-
-
         <record id="eq_partner_extension_form_view" model="ir.ui.view">
 			<field name="name">eq_partner_extension.form</field>
 			<field name="model">res.partner</field>
@@ -58,11 +45,11 @@
 						<div>
 							<label for="customer_number" string="Customer Number" attrs="{'invisible':[('customer', '=', False)]}"/>
 							<div attrs="{'invisible':[('customer', '=', False)]}">
-								<field name="customer_number" attrs="{'invisible':[('customer', '=', False)], 'readonly':[('auto_customer_ref','=',True)]}" />
+								<field name="customer_number" attrs="{'invisible':[('customer', '=', False)]}" />
 							</div>
 							<label for="supplier_number" string="Supplier Number" attrs="{'invisible':[('supplier', '=', False)]}" />
 							<div attrs="{'invisible':[('supplier', '=', False)]}" >
-								<field name="supplier_number" attrs="{'invisible':[('supplier', '=', False)], 'readonly': [('auto_supplier_ref','=',True)]}" />
+								<field name="supplier_number" attrs="{'invisible':[('supplier', '=', False)]}" />
 							</div>
 						</div>
 					</div>
@@ -112,6 +99,10 @@
 					<field name="eq_name3" t-if="record.eq_name3.raw_value" attrs="{'invisible': [('type', '=', 'contact')]}" />
 				</xpath>
 
+				<xpath expr="//field[@name='child_ids']/form/sheet/group/group/field[@name='name']" position="replace">
+					<field name="name" string="Name" attrs="{'required' : [('type', '=', 'contact')]}"/>
+				</xpath>
+
 				<xpath expr="//field[@name='child_ids']/form//field[@name='mobile']"
 					position="after">
 					<field name="is_company"  invisible="1" />
@@ -159,9 +150,17 @@
 					</group>
 				</xpath>
 
+				<xpath	expr="//field[@name='child_ids']/form/sheet/group/group" position="attributes">
+					<attribute name="invisible" >0</attribute>
+				</xpath>
+
 				<xpath expr="//field[@name='child_ids']/form//field[@name='image']" position="replace"/>
 
-                <xpath expr="//field[@name='email']" position="after">
+				<xpath	expr="//field[@name='child_ids']/form/sheet/group" position="before">
+					<field name="image" string="eq_contact_image" widget='image' class="oe_avatar" options='{"preview_image": "image_medium"}' />
+				</xpath>
+
+				<xpath expr="//field[@name='email']" position="after">
 					<field name="eq_letter_salutation" placeholder="Dear Sir or Madam,"
 						attrs="{'invisible': ['|', ('type', '!=', 'contact'), ('is_company', '=', True)]}" />
 				</xpath>
