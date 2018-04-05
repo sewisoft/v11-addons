@@ -42,20 +42,6 @@ class EqOpenSaleOrderLine(models.Model):
                 ) AS eq_client_order_ref,
                 (
                     SELECT
-                        res_partner.cust_auto_ref
-                    FROM
-                        res_partner
-                    WHERE res_partner.id = (
-                        SELECT
-                            sale_order.partner_id
-                        FROM
-                            sale_order
-                        WHERE
-                            sale_order.id = main.order_id
-                        )
-                ) AS eq_customer_no,
-                (
-                    SELECT
                         sale_order.partner_id
                     FROM
                         sale_order
@@ -134,21 +120,6 @@ class EqOpenSaleOrderLine(models.Model):
                         sale_order
                     WHERE
                         sale_order.id = main.order_id
-                ),
-                (
-                    SELECT
-                        res_partner.cust_auto_ref
-                    FROM
-                        res_partner
-                    WHERE
-                        res_partner.id = (
-                            SELECT
-                                sale_order.partner_id
-                            FROM
-                                sale_order
-                            WHERE
-                                sale_order.id = main.order_id
-                            )
                 ),
                 (
                     SELECT
