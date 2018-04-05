@@ -1,5 +1,10 @@
 ## Modul eq_base
 
+#### 05.04.2018
+#### Version 1.0.2
+##### FIX
+- Unicode error fixed.
+
 #### 15.03.2018
 #### Version 1.0.1
 ##### CHG

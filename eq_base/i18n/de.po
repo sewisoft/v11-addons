@@ -70,3 +70,7 @@ msgstr "Benutzer"
 msgid "Eq ceo title"
 msgstr "Anrede"
 
+#. module: eq_base
+#: model:ir.model.fields,field_description:eq_base.field_res_users_eq_signature
+msgid "Signature"
+msgstr "Unterschrift"

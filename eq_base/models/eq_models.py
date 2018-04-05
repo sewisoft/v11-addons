@@ -35,7 +35,7 @@ class BaseModelExtend(models.AbstractModel):
             empty_space_found = False
             domain = domain or []
             for dom in domain:
-                if isinstance(dom, list) and isinstance(dom[2], unicode):
+                if isinstance(dom, list) and isinstance(dom[2], str):
                     if dom[2][0] == "|":
                         dom[1] = "=ilike"
                         dom[2] = dom[2][1:]
