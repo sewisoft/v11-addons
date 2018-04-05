@@ -8,6 +8,7 @@ from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as OE_DFORMAT
 class EqSaleOrderExtension(models.Model):
     _inherit = 'sale.order'
 
+    eq_incoterm_location = fields.Char(string='Delivered at place')
     eq_delivery_condition_id = fields.Many2one('eq.delivery.conditions', 'Delivery Condition')
     eq_use_page_break_after_header = fields.Boolean(string='Page break after header text')
     eq_use_page_break_before_footer = fields.Boolean(string='Page break before footer text')
