@@ -24,6 +24,11 @@
                 <xpath expr="//field[@name='is_shipped']" position="after">
                     <field name="user_id"/>
                 </xpath>
+
+                 <field name="incoterm_id" position="after">
+                    <field name="eq_incoterm_location"/>
+                </field>
+
             </field>
         </record>
 

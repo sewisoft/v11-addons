@@ -27,6 +27,7 @@ from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as OE_DFORMAT
 class EqPurchaseOrder(models.Model):
     _inherit = 'purchase.order'
 
+    eq_incoterm_location = fields.Char(string='Delivered at place')
     eq_head_text = fields.Html('Head Text')
     notes = fields.Html('Terms and conditions')
     user_id = fields.Many2one('res.users', string="User", default=lambda self: self.env.user)

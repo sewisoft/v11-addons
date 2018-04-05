@@ -1,5 +1,10 @@
 ## Modul eq_purchase
 
+#### 05.04.2018
+#### Version 1.0.7
+##### ADD
+- add delivered at place in purchase report, if 'DAP' is set as incoterm.
+
 #### 03.04.2018
 #### Version 1.0.6
 ##### FIX
