@@ -169,7 +169,7 @@
 <!-- overrides the basic rendering of the standard report footers which are still in use by other report templates, such as website quotations -->
 <!-- This report's advantage is: it has the company address in its header - without the customer-address. Which is includet in the special reports like website quotation itself-->
 <template id="eq_basic_external_layout_header_replace" inherit_id="web.external_layout_background">
-    <xpath expr="//div[@class='header o_background_header']" position="replace">
+    <xpath expr="//div[hasclass('o_background_header')]" position="replace">
 
         <div class="header padding-print">
             <div class="row zero_min_height" style="padding-right:0.5cm;">

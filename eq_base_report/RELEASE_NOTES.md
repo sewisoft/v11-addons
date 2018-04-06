@@ -1,5 +1,11 @@
 ## Modul eq_base_report
 
+#### 06.03.2018
+#### Version 1.0.4
+##### FIX
+- fixed @class problem.
+
+
 #### 22.03.2018
 #### Version 1.0.3
 ##### CHG

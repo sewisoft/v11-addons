@@ -1,5 +1,10 @@
 ## Modul eq_res_partner
 
+#### 06.04.2018
+#### Version 1.0.6
+##### FIX
+- fixed @class problem
+
 #### 03.04.2018
 #### Version 1.0.5
 ##### FIX
