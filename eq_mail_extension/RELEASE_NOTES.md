@@ -1,6 +1,12 @@
 ## Modul eq_mail_extension
 
 #### 17.03.2018
+#### Version 1.0.2
+##### FIX
+- The transient model eq_mail.password_change (eq_mail.password_change) rule warning fixed.
+
+
+#### 17.03.2018
 #### Version 1.0.1
 ##### CHG
 - Updated module according to the version '1.0.33' from V10.
