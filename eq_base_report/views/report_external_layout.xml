@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="external_layout" inherit_id="web.external_layout">
-        <xpath expr="." position="inside">
-            <t t-if="company.external_report_layout == 'equitania'">
-                <t t-call="eq_base_report.external_layout_equitania"><t t-raw="0"/></t>
-            </t>
-        </xpath>
+    <template id="eq_external_layout">
+        <!-- Multicompany -->
+        <t t-if="not o and doc">
+            <t t-set="o" t-value="doc"/>
+        </t>
+        <t t-if="o and 'company_id' in o">
+            <t t-set="company" t-value="o.company_id"></t>
+        </t>
+        <t t-if="not o or not 'company_id' in o">
+            <t t-set="company" t-value="res_company"></t>
+        </t>
+
+        <t t-call="eq_base_report.eq_external_layout_header"/>
+        <t t-raw="0"/>
+        <t t-call="eq_base_report.eq_external_layout_footer"/>
     </template>
 
 
