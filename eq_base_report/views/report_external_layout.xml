@@ -13,7 +13,13 @@
         </t>
 
         <t t-call="eq_base_report.eq_external_layout_header"/>
-        <t t-raw="0"/>
+        <!--<t t-raw="0"/>-->
+
+        <div class="article o_report_layout_standard">
+            <!--Klasse entfernt: o_report_layout_standard-->
+            <t t-raw="0" />
+        </div>
+
         <t t-call="eq_base_report.eq_external_layout_footer"/>
     </template>
 

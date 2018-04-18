@@ -1,5 +1,10 @@
 ## Modul eq_base_report
 
+#### 18.04.2018
+#### Version 1.0.6
+##### FIX
+- fix Report Header and Logo
+
 #### 09.04.2018
 #### Version 1.0.5
 ##### FIX

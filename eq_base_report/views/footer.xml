@@ -24,7 +24,8 @@
 	                    <div t-if="company.phone">
 	                        Phone: <span t-field="company.phone"/>
 	                    </div>
-	                    <span t-if="company.fax"> Fax: <span t-field="company.fax"/> </span>
+						<!-- TODO the fax nr is still not available -->
+	                    <!--<span t-if="company.fax"> Fax: <span t-field="company.fax"/> </span>-->
 	                </td>
 	                <td style="">
 	                    <span t-field="company.website"/><br/>
@@ -59,9 +60,10 @@
 
 						<t t-foreach="company.bank_journal_ids" t-as="journal">
 							<t t-set="bank_acc" t-value="journal.bank_account_id"/>
-							<t t-if="journal.display_on_footer">
+							<!-- TODO -->
+							<!--<t t-if="journal.display_on_footer">-->
 								Bank: <span t-esc="bank_acc.bank_name"/><br/><t t-if="bank_acc.bank_bic">BIC: <span t-esc="bank_acc.bank_bic"/><br/></t>IBAN: <span t-esc="bank_acc.acc_number"/><br/>
-							</t>
+							<!--</t>-->
 						</t>
 	                </td>
 	            </tr>
